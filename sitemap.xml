@@ -2,46 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alasutoru.github.io/5/</loc>
+    <loc>http://localhost:1313/5/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/categories/</loc>
+    <loc>http://localhost:1313/5/categories/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/post/</loc>
+    <loc>http://localhost:1313/5/post/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/tags/</loc>
+    <loc>http://localhost:1313/5/tags/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/tags/%E5%8E%9F%E5%89%B5/</loc>
+    <loc>http://localhost:1313/5/tags/%E5%8E%9F%E5%89%B5/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/post/240708/</loc>
+    <loc>http://localhost:1313/5/post/240708/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/categories/%E5%BF%83%E6%83%85/</loc>
+    <loc>http://localhost:1313/5/categories/%E5%BF%83%E6%83%85/</loc>
     <lastmod>2024-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/categories/%E4%BA%BA%E7%94%9F/</loc>
+    <loc>http://localhost:1313/5/categories/%E4%BA%BA%E7%94%9F/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/post/240709/</loc>
+    <loc>http://localhost:1313/5/post/240709/</loc>
     <lastmod>2024-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/page/</loc>
+    <loc>http://localhost:1313/5/page/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/page/about/</loc>
+    <loc>http://localhost:1313/5/tags/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/5/post/240101/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/5/page/about/</loc>
     <lastmod>2020-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/page/archives/</loc>
+    <loc>http://localhost:1313/5/page/archives/</loc>
     <lastmod>2007-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alasutoru.github.io/5/categories/test/</loc>
+    <loc>http://localhost:1313/5/categories/test/</loc>
   </url><url>
-    <loc>https://alasutoru.github.io/5/page/search/</loc>
+    <loc>http://localhost:1313/5/page/search/</loc>
   </url><url>
-    <loc>https://alasutoru.github.io/5/page/links/</loc>
+    <loc>http://localhost:1313/5/page/links/</loc>
   </url>
 </urlset>
