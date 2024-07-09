@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>你個燈籠</title>
-        <link>https://alasutoru.github.io/blog/</link>
+        <link>https://alasutoru.github.io/5/</link>
         <description>Recent content on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>強勢回歸！</title>
-        <link>https://alasutoru.github.io/blog/post/240708/</link>
+        <link>https://alasutoru.github.io/5/post/240708/</link>
         <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/blog/post/240708/</guid>
-        <description>&lt;img src="https://alasutoru.github.io/blog/post/240708/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post 強勢回歸！" /&gt;&lt;p&gt;自從2018年關閉用WordPress架設的行銷網站&lt;br&gt;
+        <guid>https://alasutoru.github.io/5/post/240708/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/240708/matt-le-SJSpo9hQf7s-unsplash.jpg" alt="Featured image of post 強勢回歸！" /&gt;&lt;p&gt;自從2018年關閉用WordPress架設的行銷網站&lt;br&gt;
 之後一直都沒有一個固定寫文的地方&lt;br&gt;
 想買個十年網域＋空間&lt;br&gt;
 又覺得自己可能不會活這麼久&lt;br&gt;
@@ -30,10 +30,10 @@
         </item>
         <item>
         <title>如何知道人值不值得幫？</title>
-        <link>https://alasutoru.github.io/blog/post/240709/</link>
+        <link>https://alasutoru.github.io/5/post/240709/</link>
         <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/blog/post/240709/</guid>
+        <guid>https://alasutoru.github.io/5/post/240709/</guid>
         <description>&lt;p&gt;當你口頭幫一個人時&lt;br&gt;
 看他會不會跟你硬碰硬&lt;br&gt;
 指正他的時候，沒有跟你反駁&lt;br&gt;
@@ -94,10 +94,10 @@
         </item>
         <item>
         <title>關於我</title>
-        <link>https://alasutoru.github.io/blog/page/about/</link>
+        <link>https://alasutoru.github.io/5/page/about/</link>
         <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/blog/page/about/</guid>
+        <guid>https://alasutoru.github.io/5/page/about/</guid>
         <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Apache License 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
 &lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
@@ -122,26 +122,26 @@
         </item>
         <item>
         <title>檔案庫</title>
-        <link>https://alasutoru.github.io/blog/page/archives/</link>
+        <link>https://alasutoru.github.io/5/page/archives/</link>
         <pubDate>Mon, 28 May 2007 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/blog/page/archives/</guid>
+        <guid>https://alasutoru.github.io/5/page/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜尋檔</title>
-        <link>https://alasutoru.github.io/blog/page/search/</link>
+        <link>https://alasutoru.github.io/5/page/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/blog/page/search/</guid>
+        <guid>https://alasutoru.github.io/5/page/search/</guid>
         <description></description>
         </item>
         <item>
         <title>連結斯</title>
-        <link>https://alasutoru.github.io/blog/page/links/</link>
+        <link>https://alasutoru.github.io/5/page/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/blog/page/links/</guid>
+        <guid>https://alasutoru.github.io/5/page/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
