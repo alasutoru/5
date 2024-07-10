@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>技能 on 你個燈籠</title>
+        <link>https://alasutoru.github.io/5/categories/%E6%8A%80%E8%83%BD/</link>
+        <description>Recent content in 技能 on 你個燈籠</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/categories/%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>iMac清除暫存檔案</title>
+        <link>https://alasutoru.github.io/5/post/240710/</link>
+        <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240710/</guid>
+        <description>&lt;p&gt;電腦用久都會有很多垃圾文件或是暫存檔
+在新視窗的搜尋框中，輸入以下路徑，然後鍵盤上按下 &lt;code&gt;Return&lt;/code&gt;鍵。
+以下三個資料夾位置內的檔案都可以刪除&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;~/Library/Caches
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;/Library/Caches
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;/System/Library/Caches
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
