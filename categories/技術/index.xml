@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>原創 on 你個燈籠</title>
-        <link>https://alasutoru.github.io/5/tags/%E5%8E%9F%E5%89%B5/</link>
-        <description>Recent content in 原創 on 你個燈籠</description>
+        <title>技術 on 你個燈籠</title>
+        <link>https://alasutoru.github.io/5/categories/%E6%8A%80%E8%A1%93/</link>
+        <description>Recent content in 技術 on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/tags/%E5%8E%9F%E5%89%B5/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/categories/%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>行銷說穿了就是比口才</title>
         <link>https://alasutoru.github.io/5/post/240715/</link>
         <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
@@ -47,24 +47,23 @@
 &lt;/h2&gt;</description>
         </item>
         <item>
-        <title>強勢回歸！</title>
-        <link>https://alasutoru.github.io/5/post/240708/</link>
-        <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+        <title>Cloudflare Pages</title>
+        <link>https://alasutoru.github.io/5/post/240714/</link>
+        <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/5/post/240708/</guid>
-        <description>&lt;img src="https://alasutoru.github.io/5/post/240708/back.jpg" alt="Featured image of post 強勢回歸！" /&gt;&lt;p&gt;自從2018年關閉用WordPress架設的行銷網站&lt;br&gt;
-之後一直都沒有一個固定寫文的地方&lt;br&gt;
-想買個十年網域＋空間&lt;br&gt;
-又覺得自己可能不會活這麼久&lt;br&gt;
-做這件事就是徒勞&lt;br&gt;
-最近發現在Github可以做靜態網站&lt;br&gt;
-但這技術我沒學過&lt;br&gt;
-也是摸了幾個禮拜的時間才搭起來&lt;br&gt;
-其實還是有很多不會的地方&lt;br&gt;
-不過可以發文貼圖就好了～
-在這可能沒什麼會看到&lt;br&gt;
-也可以算是在我有生之年&lt;br&gt;
-最後可以施展的地方！&lt;/p&gt;
+        <guid>https://alasutoru.github.io/5/post/240714/</guid>
+        <description>&lt;p&gt;希望自己的網站能在不在世時繼續營運&lt;br&gt;
+又不會出現問題&lt;br&gt;
+放在Github靜態網頁真的是不錯的選擇&lt;br&gt;
+剛好Clouflare Pages也提供免費空間和夠用的服務&lt;br&gt;
+我是用Hugo產生靜態網頁上傳到github上&lt;br&gt;
+並會自動備份到Clouflare Pages&lt;br&gt;
+網路上有人分享使用方式&lt;br&gt;
+但因為Clouflare Pages有改版所以不太一樣&lt;br&gt;
+不過大同小異&lt;br&gt;
+這邊有說明連結&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://developers.cloudflare.com/pages/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developers.cloudflare.com/pages/&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;</description>
         </item>
