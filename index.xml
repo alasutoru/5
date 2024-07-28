@@ -6,7 +6,45 @@
         <description>Recent content on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>學習慢的原因</title>
+        <link>https://alasutoru.github.io/5/post/240718/</link>
+        <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240718/</guid>
+        <description>&lt;p&gt;當有一件需要學習的事情時&lt;br&gt;
+我會想&lt;br&gt;
+這過程為什麼要這樣&lt;br&gt;
+目的是什麼&lt;br&gt;
+邏輯是什麼&lt;br&gt;
+意義是什麼&lt;br&gt;
+可以有別的替代方案嗎&lt;br&gt;
+對這件事可改變和控制&lt;br&gt;
+很重要&lt;br&gt;
+要怎麼運行&lt;br&gt;
+這樣中途如果有發生變化&lt;br&gt;
+就可以靈活的處理和應對&lt;br&gt;
+思考是為了可以舉一反三&lt;br&gt;
+對於人家給直接給答案不會滿足&lt;br&gt;
+會去解決學習中的為什麼&lt;br&gt;
+對別人來說可以直接到終點的事&lt;br&gt;
+對我來說就是要一直解決為什麼&lt;br&gt;
+才會到終點&lt;br&gt;
+時間就會花在很多這些事情上&lt;br&gt;
+只要能夠解決這路上的問題和疑問&lt;br&gt;
+就會很有成就感&lt;br&gt;
+靠著這些成就感繼續往下&lt;br&gt;
+如果沒解決就會糾結在這個點&lt;br&gt;
+沒解決略過是不妥的&lt;br&gt;
+心裡放不下&lt;br&gt;
+在細節上也會有時猶豫&lt;br&gt;
+所以做事注重深入理解的過程&lt;br&gt;
+就是需要花很多時間&lt;br&gt;
+而記憶點就是建立在這些理解的基礎上&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>夢為啥無法破解</title>
         <link>https://alasutoru.github.io/5/post/240716/</link>
         <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
@@ -114,12 +152,29 @@
         
         <guid>https://alasutoru.github.io/5/post/240710/</guid>
         <description>&lt;p&gt;電腦用久都會有很多垃圾文件或是暫存檔
-在新視窗的搜尋框中，輸入以下路徑，然後鍵盤上按下 &lt;code&gt;Return&lt;/code&gt;鍵。
-以下三個資料夾位置內的檔案都可以刪除&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;~/Library/Caches&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;/Library/Caches&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;/System/Library/Caches&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+在新視窗的上方工具列中&lt;br&gt;
+前往～  前往檔案夾～&lt;br&gt;
+跳出路徑框後複製下面路徑貼上&lt;br&gt;
+以下四個資料夾位置內的檔案都可以刪除&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;~/Library/Caches
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;/Library/Caches
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;/System/Library/Caches
+&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-copy&#34; data-lang=&#34;copy&#34;&gt;~/Library/Logs
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>240709</title>
+        <link>https://alasutoru.github.io/5/post/240629/</link>
+        <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240629/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/240629/240629.jpg" alt="Featured image of post 240709" /&gt;&lt;p&gt;昨天喝了冰火&lt;br&gt;
+我似乎忘記了為什麼不能喝酒&lt;br&gt;
+但是晚上做了一個很奇怪的夢&lt;br&gt;
+然後醒來我也聽到&lt;br&gt;
+因為怕身體會被搶走&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;</description>
         </item>
         <item>
@@ -214,11 +269,20 @@
         <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
         
         <guid>https://alasutoru.github.io/5/page/about/</guid>
-        <description>&lt;p&gt;經歷：&lt;/p&gt;
+        <description>&lt;p&gt;我是個很有自信的人，因為我有下面這些：&lt;/p&gt;
+&lt;p&gt;信息差：我知道的，你不知道&lt;br&gt;
+認知差；我懂得東西，你不懂&lt;br&gt;
+執行差：你我都得做，你不做我做&lt;br&gt;
+競爭差：你我都要做，我做的比你好&lt;/p&gt;
+&lt;p&gt;經歷：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;看透人心雙眼擁有者&lt;/li&gt;
 &lt;li&gt;40年生活觀察家&lt;/li&gt;
 &lt;li&gt;資深MIS&lt;/li&gt;
+&lt;li&gt;璇璣門 紫微 旁門弟子&lt;/li&gt;
+&lt;li&gt;法玄 法科諮詢顧問&lt;/li&gt;
+&lt;li&gt;福緣命理工作室 風水堪與師 嫡傳弟子&lt;/li&gt;
+&lt;li&gt;卜卦進階班學員&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;曾任：&lt;/p&gt;
 &lt;ul&gt;
@@ -238,22 +302,6 @@
 &lt;li&gt;業餘Youtber&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        </item>
-        <item>
-        <title>施比受更有福</title>
-        <link>https://alasutoru.github.io/5/post/240629/</link>
-        <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://alasutoru.github.io/5/post/240629/</guid>
-        <description>&lt;p&gt;最近整理到爸爸遺留的照片影片&lt;br&gt;
-看了這些&lt;br&gt;
-發現他都是一位紀錄者&lt;br&gt;
-不是被記錄的人&lt;br&gt;
-讓我想起這世上能夠奉獻自己的人&lt;br&gt;
-真是少之又少&lt;br&gt;
-多半都是接收～&lt;/p&gt;
-&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
-&lt;/h2&gt;</description>
         </item>
         <item>
         <title>讀心的方式</title>
@@ -319,6 +367,180 @@
 &lt;/h2&gt;</description>
         </item>
         <item>
+        <title>231210</title>
+        <link>https://alasutoru.github.io/5/post/231210/</link>
+        <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231210/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231210/231210.jpg" alt="Featured image of post 231210" /&gt;&lt;p&gt;同學靠我靠的近&lt;br&gt;
+我說下個月要期末考&lt;br&gt;
+現在都十二月初&lt;br&gt;
+一月底考&lt;br&gt;
+在講兩個老師的事&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231209</title>
+        <link>https://alasutoru.github.io/5/post/231209/</link>
+        <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231209/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231209/231209.jpg" alt="Featured image of post 231209" /&gt;&lt;p&gt;很多人慶祝我生日但都是不認識的人&lt;br&gt;
+之後我到一棟超高的大樓上&lt;br&gt;
+挑望遠處&lt;br&gt;
+都是一些超級高的大樓&lt;br&gt;
+配上山景&lt;br&gt;
+蠻美的&lt;br&gt;
+我還一不小心差點滑掉下去&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231119</title>
+        <link>https://alasutoru.github.io/5/post/231129/</link>
+        <pubDate>Sun, 19 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231129/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231129/231129.jpg" alt="Featured image of post 231119" /&gt;&lt;p&gt;化身進去解救夥伴&lt;br&gt;
+殺光怪物都沒發現人&lt;br&gt;
+但發現宿舍的方向錯誤&lt;br&gt;
+我以為位置在那邊結果不對&lt;br&gt;
+要再回去救他們&lt;br&gt;
+先用遙視看他們是否平安&lt;br&gt;
+過去可能變白天怪物突然變很小&lt;br&gt;
+我趕快跑過去&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231118</title>
+        <link>https://alasutoru.github.io/5/post/231118/</link>
+        <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231118/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231118/231118.jpg" alt="Featured image of post 231118" /&gt;&lt;p&gt;受傷的神獸在洞穴裡&lt;br&gt;
+不陪祂會會引發大地震&lt;br&gt;
+一堆人來面試&lt;br&gt;
+不知道是要面試什麼&lt;br&gt;
+在這居然有工作&lt;br&gt;
+還是很忙很多事的事&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>谷歌帳號被盜救援密碼復原</title>
+        <link>https://alasutoru.github.io/5/post/231113/</link>
+        <pubDate>Mon, 13 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231113/</guid>
+        <description>&lt;p&gt;1.谷歌帳號被盜，包含gmail或Youtube，被盜是屬於比較不好解決的方式，以下提供谷歌找回連結。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.google.com/accounts/answer/6294825?hl=zh-Hant&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://support.google.com/accounts/answer/6294825?hl=zh-Hant&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;另外，根據最近快速找回的人指出，直接去谷歌官方的推特，也就就是Ｘ，那邊留言會比較快得到回覆。&lt;/p&gt;
+&lt;p&gt;2.有人得知你密碼或是被更改過進不去，從谷歌提供的這個連結取回。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.google.com/accounts/answer/58585?hl=zh-Hant&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://support.google.com/accounts/answer/58585?hl=zh-Hant&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3.復原谷歌帳號或是gmail&lt;/p&gt;
+&lt;p&gt;如果忘記密碼或使用者名稱，或無法取得驗證碼，請點選進去下列谷歌提供連結，按照說明方式，點選方式取回。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://support.google.com/accounts/answer/7682439?hl=zh-Hant&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://support.google.com/accounts/answer/7682439?hl=zh-Hant&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請養成習慣網址檢查後，自行複製貼上比較安全！&lt;/p&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>免費照片/圖片壓縮</title>
+        <link>https://alasutoru.github.io/5/post/231107/</link>
+        <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231107/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/.jpg" alt="Featured image of post 免費照片/圖片壓縮" /&gt;&lt;p&gt;可離線工作
+可調整圖像品質
+可更改檔後綴詞
+可轉WEBP
+可批量壓縮
+原檔名不更動
+我曾經一次拉500張圖批量沒問題！&lt;/p&gt;
+&lt;p&gt;🌐 網址
+&lt;a class=&#34;link&#34; href=&#34;https://compressimage.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://compressimage.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;請自行複製Ctrl+C網址，貼上Ctrl+V網址，安全至上！&lt;/p&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231106</title>
+        <link>https://alasutoru.github.io/5/post/231106/</link>
+        <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231106/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231106/231106.jpg" alt="Featured image of post 231106" /&gt;&lt;p&gt;全身黑特裝女子&lt;br&gt;
+跟我說我戶頭有一億&lt;br&gt;
+但我實際上好像沒這麼多&lt;br&gt;
+總之謝謝&lt;br&gt;
+還給我一間店&lt;br&gt;
+很多員工&lt;br&gt;
+去了一座常常經過的橋上&lt;br&gt;
+一堆人在爭所有權&lt;br&gt;
+跟一個男的出差&lt;br&gt;
+途中曾遇到心儀我的人&lt;br&gt;
+但我沒要聯絡方式&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231025</title>
+        <link>https://alasutoru.github.io/5/post/231025/</link>
+        <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231025/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231025/231025.jpg" alt="Featured image of post 231025" /&gt;&lt;p&gt;紫色妖氣沖天&lt;br&gt;
+裡面出現了很多妖怪&lt;br&gt;
+也有另外一批神趕來&lt;br&gt;
+但是這一批神能力沒有很強&lt;br&gt;
+有一個在我旁邊被直接爆頭&lt;br&gt;
+我看到另外一個&lt;br&gt;
+他說這些有神力編號&lt;br&gt;
+下次再來收拾&lt;br&gt;
+妖怪真的非常的多&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231012</title>
+        <link>https://alasutoru.github.io/5/post/231012/</link>
+        <pubDate>Thu, 12 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231012/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231012/231012.jpg" alt="Featured image of post 231012" /&gt;&lt;p&gt;晚上的船&lt;br&gt;
+旁有女助理&lt;br&gt;
+帶我去該做事的地方&lt;br&gt;
+雙手放出一條線的藍光&lt;br&gt;
+加持在一塊木頭強上&lt;br&gt;
+似乎&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>231004</title>
+        <link>https://alasutoru.github.io/5/post/231004/</link>
+        <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/231004/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/231004/231004.jpg" alt="Featured image of post 231004" /&gt;&lt;p&gt;聚集一堆高手和一個助理&lt;br&gt;
+守門的超級難打根本贏不了&lt;br&gt;
+還兩個&lt;br&gt;
+樓上也是一堆超能人&lt;br&gt;
+在裡面有超能力控制物體&lt;br&gt;
+但沒辦法一次控制很多&lt;br&gt;
+只能說先撤退&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>啪！沒了！小時候的零用錢</title>
         <link>https://alasutoru.github.io/5/post/230409/</link>
         <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
@@ -336,6 +558,389 @@
 直到爸爸走了之後&lt;br&gt;
 看薪資單才知道&lt;br&gt;
 爸爸的月薪一個月有八萬多．．．．&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>230120</title>
+        <link>https://alasutoru.github.io/5/post/230120/</link>
+        <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/230120/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/230120/230120.jpg" alt="Featured image of post 230120" /&gt;&lt;p&gt;矮肥的自己在鏡中看到&lt;br&gt;
+正找神的名字中&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>230106</title>
+        <link>https://alasutoru.github.io/5/post/230106/</link>
+        <pubDate>Fri, 06 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/230106/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/230106/230106.jpg" alt="Featured image of post 230106" /&gt;&lt;p&gt;被賣掉被一個大叔買下來&lt;br&gt;
+然後靠著躲在監牢裡面&lt;br&gt;
+喝一點點水活下來&lt;br&gt;
+這樣日子生不如死&lt;br&gt;
+結果我就被帶去訓練嘴巴&lt;br&gt;
+塗了白色黏黏的東西開始工作到最後一刻&lt;br&gt;
+我就昏了過去&lt;br&gt;
+生命沒了&lt;br&gt;
+被扔掉結束這一切&lt;br&gt;
+後來被一個女的救走&lt;br&gt;
+進去到一個類似節日所舉辦的萬聖節大會&lt;br&gt;
+裡面所有的東西恐怖的&lt;br&gt;
+都是黑白的&lt;br&gt;
+前世的記憶&lt;br&gt;
+就在這邊展開&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>送給有緣人</title>
+        <link>https://alasutoru.github.io/5/post/230101/</link>
+        <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/230101/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/230101/230101.jpg" alt="Featured image of post 送給有緣人" /&gt;&lt;p&gt;早餐店看到空的三人座位&lt;br&gt;
+肥蒼蠅停在桌面立馬換位置&lt;br&gt;
+後來兩位年輕人進來&lt;br&gt;
+選了那邊坐了下去&lt;br&gt;
+沒多久因為蒼蠅換位置&lt;br&gt;
+再之後進來三個人&lt;br&gt;
+蒼蠅不知去向&lt;br&gt;
+那三人剛好坐在哪裡&lt;br&gt;
+看懂了嗎？&lt;br&gt;
+當你在不同身份&lt;br&gt;
+當你的時間差&lt;br&gt;
+會影響你看到的判斷&lt;br&gt;
+這判斷又影響著你的心和想法&lt;br&gt;
+人就是一直循環著這些事&lt;br&gt;
+神無時刻都會用生活指引人&lt;br&gt;
+配合你身上正發生的事&lt;br&gt;
+能懂&lt;br&gt;
+就能掌握人生一切&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221212</title>
+        <link>https://alasutoru.github.io/5/post/221212/</link>
+        <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221212/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221212/221212.jpg" alt="Featured image of post 221212" /&gt;&lt;p&gt;黑暗的雨天&lt;br&gt;
+突然一半照天迎來&lt;br&gt;
+躺在地上的人醒來繼續忙著&lt;br&gt;
+夢中世界跟現實的連結&lt;br&gt;
+與醒來的人說明是另一個世界的人&lt;br&gt;
+也詢問醒來人的記憶是否正常&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221202</title>
+        <link>https://alasutoru.github.io/5/post/221202/</link>
+        <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221202/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221202/221202.jpg" alt="Featured image of post 221202" /&gt;&lt;p&gt;這世界很特別跟現在一樣&lt;br&gt;
+但就是沒有電&lt;br&gt;
+一到晚上就暗了看不到&lt;br&gt;
+我還想著&lt;br&gt;
+可以從這邊帶什麼會發電的過去呢&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221201</title>
+        <link>https://alasutoru.github.io/5/post/221201/</link>
+        <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221201/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221201/221201.jpg" alt="Featured image of post 221201" /&gt;&lt;p&gt;正在挑選模型的時候&lt;br&gt;
+馬上換到學校&lt;br&gt;
+一個圓弧狀的閃電打下&lt;br&gt;
+擊中三隻妖怪&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221023</title>
+        <link>https://alasutoru.github.io/5/post/221023/</link>
+        <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221023/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221023/221023.jpg" alt="Featured image of post 221023" /&gt;&lt;p&gt;有很多飛彈襲來&lt;br&gt;
+我為了保護人來不及跑使出防護罩&lt;br&gt;
+有一個科學家在臨死前&lt;br&gt;
+在他的簿子上面寫&lt;br&gt;
+很對不起她的老公李國華&lt;br&gt;
+她老公因為她&lt;br&gt;
+生活過得不是很好&lt;br&gt;
+而他那時候的那一刻&lt;br&gt;
+才想到老公曾經對自己的好&lt;br&gt;
+世界開始打仗&lt;br&gt;
+到處都無法躲&lt;br&gt;
+外星人跟著地球打仗&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221021</title>
+        <link>https://alasutoru.github.io/5/post/221021/</link>
+        <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221021/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221021/221021.jpg" alt="Featured image of post 221021" /&gt;&lt;p&gt;小飛碟從裡面出來一個中年婦女&lt;br&gt;
+她用心電感應跟我說&lt;br&gt;
+會有大地震&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221014</title>
+        <link>https://alasutoru.github.io/5/post/221014/</link>
+        <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221014/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221014/221014.jpg" alt="Featured image of post 221014" /&gt;&lt;p&gt;一個人被虐待在上班的時候&lt;br&gt;
+是開始在一個班上&lt;br&gt;
+所有人都必須參加這個比賽&lt;br&gt;
+必須要有自己找組别&lt;br&gt;
+來了解這個環境並知道地方在哪裡&lt;br&gt;
+但這個地方&lt;br&gt;
+充滿危險要自己能應付&lt;br&gt;
+到隔天早上八點以前是最後的期限&lt;br&gt;
+這時間裡有人放棄有人積極完成&lt;br&gt;
+但我自己都不知道該怎麼辦&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221011</title>
+        <link>https://alasutoru.github.io/5/post/221011/</link>
+        <pubDate>Tue, 11 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221011/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221011/221011.jpg" alt="Featured image of post 221011" /&gt;&lt;p&gt;傍晚不錯的郊區&lt;br&gt;
+有個女的為了答謝我&lt;br&gt;
+給我喝一個東西&lt;br&gt;
+我的手長了很多像是草的東西&lt;br&gt;
+我一直拔&lt;br&gt;
+我問她說這是什麼喝下去&lt;br&gt;
+為什麼會是這樣&lt;br&gt;
+她跟我說你看看你的肩膀和你的手&lt;br&gt;
+是不是好了&lt;br&gt;
+我發現我的手可以舉起來&lt;br&gt;
+身體有比以前好很多&lt;br&gt;
+真的是謝謝她&lt;br&gt;
+另外一個女的在笑&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>221002</title>
+        <link>https://alasutoru.github.io/5/post/221002/</link>
+        <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/221002/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/221002/221002.jpg" alt="Featured image of post 221002" /&gt;&lt;p&gt;原來我工作的地方&lt;br&gt;
+地獄&lt;br&gt;
+裡面也有同事&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220929</title>
+        <link>https://alasutoru.github.io/5/post/220929/</link>
+        <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220929/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220929/220929.jpg" alt="Featured image of post 220929" /&gt;&lt;p&gt;太空船又來載人去做事&lt;br&gt;
+似乎人就是拿來做事&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220821</title>
+        <link>https://alasutoru.github.io/5/post/220821/</link>
+        <pubDate>Sun, 21 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220821/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220821/220821.jpg" alt="Featured image of post 220821" /&gt;&lt;p&gt;這麼多年
+第一次在夢裡被認出&lt;br&gt;
+而是對方說&lt;br&gt;
+是你&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220817</title>
+        <link>https://alasutoru.github.io/5/post/220817/</link>
+        <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220817/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220817/220817.jpg" alt="Featured image of post 220817" /&gt;&lt;p&gt;應徵工作前練身體&lt;br&gt;
+黑色的刀站在門口感應&lt;br&gt;
+新的工作開始&lt;br&gt;
+很多人一起&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220723</title>
+        <link>https://alasutoru.github.io/5/post/220723/</link>
+        <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220723/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220723/220723.jpg" alt="Featured image of post 220723" /&gt;&lt;p&gt;在一個地方等著去另一個世界&lt;br&gt;
+可以轉換成女生的身體&lt;br&gt;
+然後到那邊&lt;br&gt;
+可以自由選擇時間和年齡&lt;br&gt;
+什麼都可以選&lt;br&gt;
+等我好後進去&lt;br&gt;
+這裡後發現跟原本的世界不一樣&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220626</title>
+        <link>https://alasutoru.github.io/5/post/220626/</link>
+        <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220626/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220626/220626.jpg" alt="Featured image of post 220626" /&gt;&lt;p&gt;這非常清楚&lt;br&gt;
+晚上的外面&lt;br&gt;
+山洪暴發&lt;br&gt;
+所有人被聚集在一個底部&lt;br&gt;
+外面還有很多人要去救&lt;br&gt;
+但外面很黑&lt;br&gt;
+有很多殭屍&lt;br&gt;
+從下面的路口處發現&lt;br&gt;
+路都已經斷了&lt;br&gt;
+但有人擋在這邊說&lt;br&gt;
+他們要出去&lt;br&gt;
+結果這些人都是假的訊息&lt;br&gt;
+都是騙人在這邊等&lt;br&gt;
+上面的出口是真的有人要出去&lt;br&gt;
+就我那一組&lt;br&gt;
+總共有五人&lt;br&gt;
+有男有女&lt;br&gt;
+因為我忘記帶棍&lt;br&gt;
+所以回去拿&lt;br&gt;
+順便拿5把刀掛身上&lt;br&gt;
+我在找棍&lt;br&gt;
+看到其他人可以幫忙的&lt;br&gt;
+我也問他們可以嗎&lt;br&gt;
+但都沒有人希望加入  所以只好自己去&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220519</title>
+        <link>https://alasutoru.github.io/5/post/220519/</link>
+        <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220519/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220519/220519.jpg" alt="Featured image of post 220519" /&gt;&lt;p&gt;萬年烏龜  巨大又高&lt;br&gt;
+旁邊很多人在Ｋ&lt;br&gt;
+看起來非常累&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220423</title>
+        <link>https://alasutoru.github.io/5/post/220423/</link>
+        <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220423/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220423/220423.jpg" alt="Featured image of post 220423" /&gt;&lt;p&gt;我看到一個人被槍殺後&lt;br&gt;
+便展開回到過去&lt;br&gt;
+影像一直往回去&lt;br&gt;
+顏色從彩色變黑白再從黑白變彩色&lt;br&gt;
+一直回到受傷之前&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220224</title>
+        <link>https://alasutoru.github.io/5/post/220224/</link>
+        <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220224/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220224/220224.jpg" alt="Featured image of post 220224" /&gt;&lt;p&gt;到了一個高科技星球&lt;br&gt;
+遇見一男一女&lt;br&gt;
+看起來非常的年輕幾&lt;br&gt;
+算是小孩子的年紀&lt;br&gt;
+我問了他們&lt;br&gt;
+你們幾歲啊&lt;br&gt;
+他說六百歲&lt;br&gt;
+在這邊逛了一下之後就回去&lt;br&gt;
+那邊當時是晚上&lt;br&gt;
+晚上看可以看出是別的星球&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220217</title>
+        <link>https://alasutoru.github.io/5/post/220217/</link>
+        <pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220217/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220217/220217.jpg" alt="Featured image of post 220217" /&gt;&lt;p&gt;出現在塔頂&lt;br&gt;
+恢復可控制的狀態&lt;br&gt;
+從上跳到最下走著路&lt;br&gt;
+路上攔人攔車&lt;br&gt;
+看著地圖顯示出沒見過的地方&lt;br&gt;
+這裡非常好控制看的非常清楚&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>220206</title>
+        <link>https://alasutoru.github.io/5/post/220206/</link>
+        <pubDate>Sun, 06 Feb 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/220206/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/220206/220206.jpg" alt="Featured image of post 220206" /&gt;&lt;p&gt;沒有不想上課想要早點離開&lt;br&gt;
+就先跑留下我一個殿後&lt;br&gt;
+我好了之後出去發現&lt;br&gt;
+一個惡魔要炸掉這裡&lt;br&gt;
+我以最快速度跑掉&lt;br&gt;
+結果這個地方被炸掉了&lt;br&gt;
+但我發現這個地方&lt;br&gt;
+走到外面的到處都是很恐怖的人&lt;br&gt;
+我就想起趕快打電話給你&lt;br&gt;
+電話總是打不通我緊張找不到你&lt;br&gt;
+到處跑&lt;br&gt;
+突然有一個女的走出來&lt;br&gt;
+我跟他說這個地方一個人很危險&lt;br&gt;
+回去趕快先離開&lt;br&gt;
+我要找我的喵&lt;br&gt;
+那女流名伊水星&lt;br&gt;
+她腳因為穿一雙很緊的鞋腳都磨破了很緊張&lt;br&gt;
+照著貓&lt;br&gt;
+就醒來&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>211229</title>
+        <link>https://alasutoru.github.io/5/post/211229/</link>
+        <pubDate>Wed, 29 Dec 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/211229/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/211229/211229.jpg" alt="Featured image of post 211229" /&gt;&lt;p&gt;每隔30步&lt;br&gt;
+目前六可以穿越裂縫一次&lt;br&gt;
+不行第二次&lt;br&gt;
+穿過去後去一家店&lt;br&gt;
+1樓的女店員在整理東西&lt;br&gt;
+2樓戴眼鏡的小妹&lt;br&gt;
+在整理&lt;br&gt;
+我問他樓上還有嗎&lt;br&gt;
+他說有&lt;br&gt;
+帶我去看&lt;/p&gt;
 &lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;</description>
         </item>
@@ -372,6 +977,240 @@
         <guid>https://alasutoru.github.io/5/post/210903/</guid>
         <description>&lt;img src="https://alasutoru.github.io/5/post/210903/ocar.jpg" alt="Featured image of post 210903" /&gt;&lt;p&gt;發現牙齒幾乎掉光，該不會被打掉？&lt;/p&gt;
 &lt;p&gt;這節骨眼還要被載去殺妖怪．．．．&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210529</title>
+        <link>https://alasutoru.github.io/5/post/210529/</link>
+        <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210529/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210529/210529.jpg" alt="Featured image of post 210529" /&gt;&lt;p&gt;第一階段
+整個夢都是被測試的階段&lt;br&gt;
+一個女的說明&lt;br&gt;
+眼睛去開刀後就只能看前面&lt;br&gt;
+旁邊不能看視力會減退&lt;br&gt;
+很多人都因為這樣要去弄&lt;br&gt;
+但我堅持不去&lt;br&gt;
+就因為這樣我過關到第二階段&lt;br&gt;
+但其實中間還有一小部分我忘了&lt;br&gt;
+就是不知道怎麼解釋這個邏輯&lt;/p&gt;
+&lt;p&gt;有一個藍色水晶&lt;br&gt;
+分別由五根柱子一人接觸一條&lt;br&gt;
+原色底部出現微微的黃色光芒&lt;br&gt;
+換我摸的時候&lt;br&gt;
+中間那一根直接出現黃色光&lt;br&gt;
+看出去能量很強。&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210424</title>
+        <link>https://alasutoru.github.io/5/post/210424/</link>
+        <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210424/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210424/210424.jpg" alt="Featured image of post 210424" /&gt;&lt;p&gt;從大樂透的場景抓照片&lt;br&gt;
+那個女的直接轉到一扇門內&lt;br&gt;
+那裡面有無數的門&lt;br&gt;
+全部都在牆上&lt;br&gt;
+而是全空的房子&lt;br&gt;
+裡面也都很多很奇怪的設備&lt;br&gt;
+也看到一群很奇怪的人&lt;br&gt;
+但我看到地圖的時候&lt;br&gt;
+試著找出台灣在哪裡&lt;br&gt;
+但都找不到&lt;br&gt;
+只知道我的地圖左下角出現&lt;br&gt;
+然後看到一群人排隊才走出來&lt;br&gt;
+有個女的也是台灣人&lt;br&gt;
+然後她跟我說&lt;br&gt;
+叫我跟旁邊那個男的問&lt;br&gt;
+可以問出很多東西&lt;br&gt;
+那個男的才跟我說&lt;br&gt;
+他爸媽走了剩下他和她兒子&lt;br&gt;
+他說他知道我是誰然後我就醒了&lt;br&gt;
+那整面牆全部都是門和窗戶&lt;br&gt;
+而且是超級一大片都是懸空&lt;br&gt;
+都是通往全部不同的世界&lt;br&gt;
+再進來這個建築物之前每一區都是不同的人種&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210418</title>
+        <link>https://alasutoru.github.io/5/post/210418/</link>
+        <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210418/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210418/210418.jpg" alt="Featured image of post 210418" /&gt;&lt;p&gt;周朝統一後&lt;br&gt;
+正下溪州&lt;br&gt;
+生活過得不是很好&lt;br&gt;
+很多人都沒飯吃&lt;br&gt;
+這所白色房子的住處&lt;br&gt;
+聚集著要去這地方一群人&lt;br&gt;
+地圖上畫得很清楚&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210413</title>
+        <link>https://alasutoru.github.io/5/post/210413/</link>
+        <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210413/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210413/210413.jpg" alt="Featured image of post 210413" /&gt;&lt;p&gt;現在3:15&lt;br&gt;
+惡夢真是太誇張&lt;br&gt;
+居然這個東西是摸得到&lt;br&gt;
+我還把它殺死這個很多隻手&lt;br&gt;
+一直亂摸蠻恐怖&lt;br&gt;
+這個夢是接續之前有做過&lt;br&gt;
+都是只有3分之一的橋段&lt;br&gt;
+這次除了完整之外&lt;br&gt;
+還有附贈結尾&lt;br&gt;
+只要誰最近又出事就是他&lt;br&gt;
+敲著他醒來&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210318</title>
+        <link>https://alasutoru.github.io/5/post/210318/</link>
+        <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210318/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210318/210318.jpg" alt="Featured image of post 210318" /&gt;&lt;p&gt;每個星球都有自己的神&lt;br&gt;
+定期都要去檢查&lt;br&gt;
+這些神有沒有在自己崗位上&lt;br&gt;
+有的願意做&lt;br&gt;
+有的不願意&lt;br&gt;
+有一頭白色石獅子不願意&lt;br&gt;
+直接被三個頭的絞殺&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210313</title>
+        <link>https://alasutoru.github.io/5/post/210313/</link>
+        <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210313/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210313/210313.jpg" alt="Featured image of post 210313" /&gt;&lt;p&gt;我的背後被人插了一槍&lt;br&gt;
+又被刮了一橫&lt;br&gt;
+再被捅了一下&lt;br&gt;
+我就這樣慢慢地倒下&lt;br&gt;
+眼睛闔上&lt;br&gt;
+居然就這樣子躺了&lt;br&gt;
+為什麼這樣心中很平靜～&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>210305</title>
+        <link>https://alasutoru.github.io/5/post/210305/</link>
+        <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/210305/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/210305/210305.jpg" alt="Featured image of post 210305" /&gt;&lt;p&gt;鐵沙相繼與另外一個星球連接&lt;br&gt;
+口語也幾乎要被吞沒&lt;br&gt;
+趕快跑回來&lt;br&gt;
+連地球都無一倖免&lt;br&gt;
+窗戶上也沾滿鐵沙&lt;br&gt;
+水快不能喝&lt;br&gt;
+趕快放水&lt;br&gt;
+沙子越來越多越來越大&lt;br&gt;
+結果還是被嗆醒的沙子跑到喉嚨裡&lt;br&gt;
+封別的星球來的時候&lt;br&gt;
+應該是說逃跑&lt;br&gt;
+一尊神像打出一道光&lt;br&gt;
+我才能從那裡透過逃脫&lt;/p&gt;
+&lt;p&gt;凌晨5:20&lt;br&gt;
+夢裡也有時光倒流&lt;br&gt;
+重新走過的事&lt;br&gt;
+可以回去再重新選擇一次&lt;br&gt;
+然後裡面的人都以為我未卜先知&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>201125</title>
+        <link>https://alasutoru.github.io/5/post/201125/</link>
+        <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/201125/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/201125/201125.jpg" alt="Featured image of post 201125" /&gt;&lt;p&gt;回到2114年&lt;br&gt;
+在車上我&lt;br&gt;
+看到了一個女生穿著白色套&lt;br&gt;
+裝個子小小&lt;br&gt;
+不小心跨過&lt;br&gt;
+飲料濺到她身上&lt;br&gt;
+她卻跟我說了很多道理&lt;br&gt;
+也就是告訴我&lt;br&gt;
+現在是什麼年份&lt;br&gt;
+但是在那個年代發展的並沒有很好&lt;br&gt;
+好的地方很好&lt;br&gt;
+不好的地方依然很落後&amp;hellip;..&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>200709</title>
+        <link>https://alasutoru.github.io/5/post/200709/</link>
+        <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/200709/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/200709/200709.jpg" alt="Featured image of post 200709" /&gt;&lt;p&gt;絲瓜跟他合照&lt;br&gt;
+相機壞掉&lt;br&gt;
+但這個也意味著&lt;br&gt;
+如果不把握機會&lt;br&gt;
+好好磨練&lt;br&gt;
+機會來臨&lt;br&gt;
+我就會失去這個機會&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>200707</title>
+        <link>https://alasutoru.github.io/5/post/200707/</link>
+        <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/200707/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/200707/200707.jpg" alt="Featured image of post 200707" /&gt;&lt;p&gt;古代的時候&lt;br&gt;
+那個小孩生氣&lt;br&gt;
+命令殺了身邊所有人&lt;br&gt;
+但在不遠處有妖怪&lt;br&gt;
+控制著棲息這小孩&lt;br&gt;
+身上都是黑氣的氣&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>200609</title>
+        <link>https://alasutoru.github.io/5/post/200609/</link>
+        <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/200609/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/200609/200609.jpg" alt="Featured image of post 200609" /&gt;&lt;p&gt;在部隊右邊床&lt;br&gt;
+是個女的&lt;br&gt;
+跟他講起很多以前的故事&lt;br&gt;
+但眼前這場景&lt;br&gt;
+是以前夢中的其中有連結的部分&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>200601</title>
+        <link>https://alasutoru.github.io/5/post/200601/</link>
+        <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/200601/</guid>
+        <description>&lt;img src="https://alasutoru.github.io/5/post/200601/200601.jpg" alt="Featured image of post 200601" /&gt;&lt;p&gt;在民和街的夜晚&lt;br&gt;
+看到米米在窗戶旁邊&lt;br&gt;
+頭對著外面&lt;br&gt;
+身體像生病&lt;br&gt;
+身上有一顆瘤&lt;br&gt;
+也看到姑姑在隔壁房間&lt;br&gt;
+希望這是好兆頭&lt;/p&gt;
 &lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;</description>
         </item>
