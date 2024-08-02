@@ -6,7 +6,58 @@
         <description>Recent content in Posts on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 26 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo配置gitalk</title>
+        <link>https://alasutoru.github.io/5/post/240731/</link>
+        <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240731/</guid>
+        <description>&lt;p&gt;本部落格想裝個留言&lt;br&gt;
+但網路上一堆教學只針對高手或是會的人&lt;br&gt;
+像我這種小白要裝真的很難&lt;br&gt;
+所以我就把裝的過程&lt;br&gt;
+一一列出來&lt;br&gt;
+並詳細介紹&lt;/p&gt;
+&lt;p&gt;先連這邊申請
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/settings/applications/new&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/settings/applications/new&lt;/a&gt;
+進去後有* 的空格填寫&lt;/p&gt;
+&lt;p&gt;Application name（隨便寫名字）&lt;br&gt;
+Homepage URL（你要裝的網站首頁地址含https://）
+Authorization callback URL(Authorization callback URL)&lt;br&gt;
+然後點Register application按鈕&lt;/p&gt;
+&lt;p&gt;創建後會得到一個ClientID  （複製第一處）
+並點按鈕生成一個ClientSecret（有個生成這個按鈕點一下就可以生成，複製第二處）&lt;br&gt;
+複製這兩個值等等會用到&lt;/p&gt;
+&lt;p&gt;接下來打開Hugo主題的配置文件（hugo.toml或者hugo.yaml）
+在裡面會找到gitalk配置&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;gitalk&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;owner&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;(github帳號，不是信箱)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;admin&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;(github帳號，不是信箱)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;repo&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;（在github新建Repositories的名字，譬如我新建ABC，這邊就打ABC）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;clientID&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;剛剛說這邊要複製的，這邊貼第一個&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;clientSecret&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;剛剛說這邊要複製的，這邊貼生成的複製第二處&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;ID:（這邊要跟設定issues的標題一模一樣才會成功！！很重要，例如我這邊用/post/）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;接下來在Repositories新增，剛剛在上述repo取的名字，要一樣&lt;br&gt;
+例如剛剛在上面取名ABC，這邊就要用ABC&lt;/p&gt;
+&lt;p&gt;創好後上面Issues點進去&lt;br&gt;
+右邊有個綠色的New issue點一下創建&lt;br&gt;
+標題要取上面ID：一樣的標題，例如上面用/post/，這邊標題就要用一模一樣&lt;br&gt;
+網頁重新整理就會出現跟我一樣的留言板&lt;br&gt;
+我因為是新手也是啥都不懂的&lt;br&gt;
+所以也無法解決大家的問題&lt;br&gt;
+希望能幫到～&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>有些雞湯不是空穴來風</title>
         <link>https://alasutoru.github.io/5/post/240726/</link>
         <pubDate>Fri, 26 Jul 2024 00:00:00 +0000</pubDate>
@@ -282,6 +333,229 @@
 &lt;/h2&gt;</description>
         </item>
         <item>
+        <title>人老了為啥開始怕子女</title>
+        <link>https://alasutoru.github.io/5/post/240601/</link>
+        <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240601/</guid>
+        <description>&lt;p&gt;我媽&lt;br&gt;
+在我小時候常賞我巴掌&lt;br&gt;
+用竹子修理我&lt;br&gt;
+理由就是&lt;br&gt;
+不順她的意&lt;br&gt;
+沒有考前三名丟她臉&lt;br&gt;
+在外打我&lt;br&gt;
+根本不管旁邊有沒有人&lt;br&gt;
+這就是她教育我的方式&lt;br&gt;
+老是找我的錯修理我&lt;/p&gt;
+&lt;p&gt;直到她到了晚年&lt;br&gt;
+發現我小時候的記憶還在&lt;br&gt;
+每件事都記得&lt;br&gt;
+只要說出小時候不好的經歷&lt;br&gt;
+她就會說沒有啊&lt;br&gt;
+不記得不承認&lt;br&gt;
+這就是常常吵架的開端&lt;/p&gt;
+&lt;p&gt;開始怕我正常&lt;br&gt;
+怕像欺負我的方式欺負她&lt;br&gt;
+這世上我唯一沒感覺的生物&lt;br&gt;
+就是面對她&lt;/p&gt;
+&lt;p&gt;我所有同學朋友們甚至其他人&lt;br&gt;
+可能想象不出來被打的理由和次數有多離譜&lt;/p&gt;
+&lt;p&gt;小學六年級一次段考數學我失常考了63分&lt;br&gt;
+當下我不是怕老師會打我&lt;br&gt;
+而我是害怕回家&lt;br&gt;
+連老師發考卷給我要打我時&lt;br&gt;
+都當著全班的面說&lt;br&gt;
+這不用打了了&lt;br&gt;
+回家給他媽修理就夠了&lt;br&gt;
+從國小一年級到六年級&lt;br&gt;
+手上常常都是傷（最愛冬天因為穿長袖）&lt;br&gt;
+老師電訪&lt;br&gt;
+我媽都說是我不乖不念書所以才修理&lt;br&gt;
+導致當時有喜歡我的女生&lt;br&gt;
+都覺得我很可憐&lt;/p&gt;
+&lt;p&gt;為啥小時候的事&lt;br&gt;
+直到現在過了三十幾年我還記得&lt;br&gt;
+因為那種痛是長時間身心的&lt;br&gt;
+真的要講都講不完&lt;/p&gt;
+&lt;p&gt;有次假日去萬華看奶奶&lt;br&gt;
+我跟姑姑和奶奶講媽媽的會打我的事&lt;br&gt;
+我媽一直在大家面前極度否認&lt;br&gt;
+都說我還小亂講話&lt;br&gt;
+又說我在家就是皮&lt;/p&gt;
+&lt;p&gt;離開時才剛到萬華火車站後站&lt;br&gt;
+在入口我就一直被拼命打巴掌&lt;br&gt;
+我爸勸都沒用&lt;br&gt;
+我妹一直在旁邊看&lt;br&gt;
+忍著一掌一掌的大力的打在我臉上&lt;br&gt;
+打到我流鼻血才停止&lt;br&gt;
+接著回家又是用竹子掃我全身&lt;br&gt;
+打到全身都是一條一條&lt;br&gt;
+然後罰跪不能吃晚餐&lt;br&gt;
+當時我邊哭邊覺得&lt;br&gt;
+這世上只有我一個人了&lt;/p&gt;
+&lt;p&gt;直到我現在四十幾歲&lt;br&gt;
+樓下的鄰居都還記得我小時候&lt;br&gt;
+因為沒有考前三名&lt;br&gt;
+跪在家門口&lt;/p&gt;
+&lt;p&gt;其實還很多都是一樣&lt;br&gt;
+賞巴掌&lt;br&gt;
+竹筍炒肉絲&lt;br&gt;
+罰跪&lt;br&gt;
+不能吃晚餐&lt;/p&gt;
+&lt;p&gt;只要跟我爸吵架我爸上班後就是打我&lt;br&gt;
+心情不好就會找事情誣陷我打我&lt;br&gt;
+常常就是不高興就不煮飯餓肚子&lt;br&gt;
+只要不高興就是找名目修理我&lt;br&gt;
+這些事都是趁我爸不在的時候做&lt;br&gt;
+我能講嗎&lt;br&gt;
+從小我就看出來原來雙面人就是這樣&lt;br&gt;
+我對所有事開始冷漠&lt;br&gt;
+原來是被從小教出來的&lt;/p&gt;
+&lt;p&gt;她打我的時候&lt;br&gt;
+只要我忍住不哭不叫&lt;br&gt;
+她就會越打越大力&lt;br&gt;
+打到我身上都流血&lt;br&gt;
+才會換沒受傷的地方打&lt;br&gt;
+她不在意我丟不丟臉&lt;br&gt;
+我的自尊&lt;br&gt;
+因為理由就是我很皮不聽話&lt;br&gt;
+不好好念書&lt;br&gt;
+連親戚也可以被這樣騙過&lt;br&gt;
+這就是我的原生家庭&lt;/p&gt;
+&lt;p&gt;如今也許&lt;br&gt;
+她知道錯但不想承擔責任承認自己不對&lt;br&gt;
+心理極度害怕老了我記仇也這樣對她&lt;br&gt;
+正常人老了為啥要害怕子女&lt;br&gt;
+你看她啥都知道&lt;/p&gt;
+&lt;p&gt;我可以體諒家裡小時候家境不好&lt;br&gt;
+但並不因為這樣就是發洩在我身上&lt;br&gt;
+直到國二她還在打我&lt;br&gt;
+我受不了這樣的方式&lt;br&gt;
+直接抓起她修理我的竹子折斷怒斥她&lt;br&gt;
+妳今後在打我我就揍妳&lt;br&gt;
+從那天後她就不敢在打我&lt;br&gt;
+而那天開始她改跟大家說&lt;br&gt;
+我常常跟家裡頂嘴不受教&lt;br&gt;
+用言語塑造我成一個不聽話很差的形象&lt;/p&gt;
+&lt;p&gt;上專科雖然不打&lt;br&gt;
+但對我也是說盡謊言以為我都不知道&lt;br&gt;
+常常跟我說家裡沒錢&lt;/p&gt;
+&lt;p&gt;上課需要的工具需要錢她都說沒有&lt;br&gt;
+叫我跟同學借&lt;br&gt;
+每次繪圖課三堂&lt;br&gt;
+我總是等別人畫完再借&lt;br&gt;
+借到同學在班上都叫我窮鬼&lt;br&gt;
+什麼都是用借的&lt;/p&gt;
+&lt;p&gt;每個禮拜給我一千元加車錢的生活費
+早上只能吞麥片包&lt;br&gt;
+中午配水&lt;br&gt;
+晚上吃一餐自助餐&lt;br&gt;
+從小常常餓肚子&lt;br&gt;
+到唸書還沒飯吃&lt;br&gt;
+導致我腸胃壞掉&lt;br&gt;
+十八歲前我的體重都沒超過52公斤&lt;/p&gt;
+&lt;p&gt;有次回家看到念廣設科的妹妹&lt;br&gt;
+買了一堆昂貴的繪圖工具&lt;br&gt;
+心涼了&lt;br&gt;
+我不是這家裡的一份子&lt;/p&gt;
+&lt;p&gt;長大後我對她&lt;br&gt;
+就會莫名心理煩躁不想理她&lt;br&gt;
+甚至看到她就討討厭&lt;br&gt;
+覺得這樣的人應該去死&lt;br&gt;
+當時我&lt;br&gt;
+可能有精神病了&lt;br&gt;
+連我爸走的那一刻&lt;br&gt;
+我一滴眼淚都沒流&lt;/p&gt;
+&lt;h2 id=&#34;父母不承認童年時對我的傷害&#34;&gt;父母不承認童年時對我的傷害
+&lt;/h2&gt;&lt;p&gt;你記錯了&lt;br&gt;
+我從來沒有這麽說過&lt;br&gt;
+真的嗎，我哪有這樣怎麼可能媽媽最疼你了&lt;br&gt;
+養你這麽大
+以上就是回應我所有的過去&lt;/p&gt;
+&lt;p&gt;很多父母都會否認對孩子的創傷&lt;br&gt;
+在手無寸鐵的童年時期&lt;br&gt;
+我們作為只能依附父母的幼童&lt;br&gt;
+為了生存只能討好和壓抑&lt;br&gt;
+那些過往的經歷在數年甚至數十年之後&lt;br&gt;
+依舊給我們帶來痛苦和被拋棄的感覺&lt;/p&gt;
+&lt;p&gt;我們在創傷中行走邊走邊自我療愈&lt;br&gt;
+鼓起勇氣&lt;br&gt;
+去找他們確認以前一些事情時&lt;br&gt;
+卻發現他們會否認不承認這些事情或者道德綁架&lt;br&gt;
+這會引起自身憤怒&lt;br&gt;
+因為這會讓我們的創傷&lt;br&gt;
+不被傾聽或被承認&lt;br&gt;
+父母這樣做的主要原因有兩點：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;對羞恥的最常見方式是否認&lt;br&gt;
+與其聽取成年子女的觀點&lt;br&gt;
+不如否認事件結束對話&lt;br&gt;
+這樣會減輕自己痛苦&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;父母記憶也許存在空白&lt;br&gt;
+尤其是在他們無法應對的情況下&lt;br&gt;
+當我們開始療愈自己時&lt;br&gt;
+我們不是否認我們的過去&lt;br&gt;
+而是面對它&lt;br&gt;
+重要的是要了解許多父母並沒有同樣經歷&lt;br&gt;
+他們不想進行不舒服的談話&lt;br&gt;
+我們心存希望&lt;br&gt;
+想能被接納理解&lt;br&gt;
+直到被一次次失望撞得撞得體無完膚&lt;br&gt;
+我們在等一個道歉&lt;br&gt;
+可是他們卻等我們報恩&lt;/p&gt;
+&lt;h2 id=&#34;為什和父母說話就不耐煩&#34;&gt;為什和父母說話就不耐煩？
+&lt;/h2&gt;&lt;p&gt;你是不是平時對別人很溫柔&lt;br&gt;
+但一和父母說話就開始暴躁&lt;br&gt;
+你可以心平氣和面對別人對你的負面評價&lt;br&gt;
+可只要你父母說你不好&lt;br&gt;
+你立刻會跟他們吵&lt;br&gt;
+但是吵完之後&lt;br&gt;
+你又會內疚&lt;br&gt;
+覺得自己沒教養不孝順&lt;/p&gt;
+&lt;p&gt;你不是不孝&lt;br&gt;
+只是吵、反抗已經成了面對父母的應激反應&lt;br&gt;
+你沒有被父母無條件接納過&lt;br&gt;
+所以也不願接納他們任何負面的東西&lt;br&gt;
+你對他們的方式&lt;br&gt;
+就是童年時期他們對你的方式&lt;br&gt;
+盡管你痛恨他們這樣的行為&lt;br&gt;
+卻在不知不覺中模仿並傳承了他們的行為&lt;/p&gt;
+&lt;h2 id=&#34;為什麽我會對父母有應激反應&#34;&gt;為什麽我會對父母有應激反應？
+&lt;/h2&gt;&lt;p&gt;我媽只喜歡優秀、聽他們話的孩子&lt;br&gt;
+當我不夠優秀又不聽話時&lt;br&gt;
+就會批評我、埋怨我、貶低我&lt;br&gt;
+讓我一定要按照她說的來做&lt;/p&gt;
+&lt;p&gt;總喜歡以愛的名義操控我&lt;br&gt;
+不管是學習工作、婚姻等人生大事&lt;br&gt;
+還是吃飯、穿衣、交朋友等生活大小事&lt;br&gt;
+都愛指手畫腳&lt;br&gt;
+認為對的就一定要我做&lt;br&gt;
+卻從來不管我想不想&lt;/p&gt;
+&lt;p&gt;為了獲得愛和生存的權利&lt;br&gt;
+對我的傷害我都壓抑在心底&lt;br&gt;
+慢慢變成心理創傷&lt;br&gt;
+但我在長大&lt;br&gt;
+便不願意再進入被他們道德綁架的關系&lt;br&gt;
+這時，只要稍有進入道德綁架關係時&lt;br&gt;
+我就會產生應激反應&lt;br&gt;
+因為我知道&lt;br&gt;
+打擊、嘲諷和控制就在後面等著我&lt;br&gt;
+我必須火力全開才能保護住內心里的自己&lt;/p&gt;
+&lt;p&gt;所以，直到2024年的端午節&lt;br&gt;
+雖然我在44歲才斷絕這樣的關係可能太晚&lt;br&gt;
+我不想在為此內耗&lt;br&gt;
+為這樣的人影響我的後半輩子～&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>強勢回歸！</title>
         <link>https://alasutoru.github.io/5/post/240708/</link>
         <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
@@ -418,6 +692,59 @@
 所以也不用擔心心理聲音被聽到&lt;/p&gt;
 &lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>好運人解析</title>
+        <link>https://alasutoru.github.io/5/post/240501/</link>
+        <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240501/</guid>
+        <description>&lt;p&gt;以前幫人的時候&lt;br&gt;
+我只能靠感知了解這個人是否值得&lt;br&gt;
+但我從未參與過這些人的人生&lt;br&gt;
+直到我參與後才發現&lt;br&gt;
+這境界似乎連我都到不了&lt;br&gt;
+為啥神會給這樣的人好運與指引幫忙&lt;br&gt;
+不是沒原因&lt;/p&gt;
+&lt;p&gt;為啥會寫下這篇&lt;br&gt;
+是在整理筆記時&lt;br&gt;
+發現了這個人的手稿&lt;br&gt;
+仔細看才發現&lt;br&gt;
+這都是很認真的付出&lt;br&gt;
+所有人都在上班&lt;br&gt;
+她也在上班&lt;br&gt;
+但下班後的認真&lt;br&gt;
+真的因人而異&lt;br&gt;
+在學習方面&lt;br&gt;
+這點真的不能用成績看人&lt;br&gt;
+看的是你願意犧牲什麼&lt;br&gt;
+換得你想要的&lt;/p&gt;
+&lt;p&gt;直到這人可以在廟裡拿到金牌時&lt;br&gt;
+我更可以確定&lt;br&gt;
+無害人之心&lt;br&gt;
+心地善良&lt;br&gt;
+認真努力的人&lt;br&gt;
+都可以得到這個結果和得到貴人相助&lt;br&gt;
+其實我在她身上也看到不少神蹟&lt;br&gt;
+這真的都是要親眼見到的人才會相信&lt;/p&gt;
+&lt;p&gt;有時我都覺得&lt;br&gt;
+這才是正確的路和思維&lt;br&gt;
+對跟不對&lt;br&gt;
+就是用結果去看&lt;br&gt;
+不用自己想法去判定&lt;/p&gt;
+&lt;p&gt;想要得到幫助的人&lt;br&gt;
+首先就是要有對的觀念&lt;br&gt;
+什麼是對的&lt;br&gt;
+不影響他人的都算&lt;br&gt;
+再來是真正的努力&lt;br&gt;
+努力不是一時的是一持續的&lt;br&gt;
+那個心念很重要&lt;br&gt;
+剩下的就是相信&lt;br&gt;
+你的神會幫助你的&lt;br&gt;
+『幫你的從不是讓你選擇』&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>240401</title>

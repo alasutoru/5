@@ -6,7 +6,58 @@
         <description>Recent content in 網站 on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/tags/%E7%B6%B2%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/tags/%E7%B6%B2%E7%AB%99/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo配置gitalk</title>
+        <link>https://alasutoru.github.io/5/post/240731/</link>
+        <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240731/</guid>
+        <description>&lt;p&gt;本部落格想裝個留言&lt;br&gt;
+但網路上一堆教學只針對高手或是會的人&lt;br&gt;
+像我這種小白要裝真的很難&lt;br&gt;
+所以我就把裝的過程&lt;br&gt;
+一一列出來&lt;br&gt;
+並詳細介紹&lt;/p&gt;
+&lt;p&gt;先連這邊申請
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/settings/applications/new&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/settings/applications/new&lt;/a&gt;
+進去後有* 的空格填寫&lt;/p&gt;
+&lt;p&gt;Application name（隨便寫名字）&lt;br&gt;
+Homepage URL（你要裝的網站首頁地址含https://）
+Authorization callback URL(Authorization callback URL)&lt;br&gt;
+然後點Register application按鈕&lt;/p&gt;
+&lt;p&gt;創建後會得到一個ClientID  （複製第一處）
+並點按鈕生成一個ClientSecret（有個生成這個按鈕點一下就可以生成，複製第二處）&lt;br&gt;
+複製這兩個值等等會用到&lt;/p&gt;
+&lt;p&gt;接下來打開Hugo主題的配置文件（hugo.toml或者hugo.yaml）
+在裡面會找到gitalk配置&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;gitalk&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;owner&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;(github帳號，不是信箱)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;admin&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;(github帳號，不是信箱)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;repo&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;（在github新建Repositories的名字，譬如我新建ABC，這邊就打ABC）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;clientID&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;剛剛說這邊要複製的，這邊貼第一個&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;clientSecret&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;剛剛說這邊要複製的，這邊貼生成的複製第二處&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;ID:（這邊要跟設定issues的標題一模一樣才會成功！！很重要，例如我這邊用/post/）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;接下來在Repositories新增，剛剛在上述repo取的名字，要一樣&lt;br&gt;
+例如剛剛在上面取名ABC，這邊就要用ABC&lt;/p&gt;
+&lt;p&gt;創好後上面Issues點進去&lt;br&gt;
+右邊有個綠色的New issue點一下創建&lt;br&gt;
+標題要取上面ID：一樣的標題，例如上面用/post/，這邊標題就要用一模一樣&lt;br&gt;
+網頁重新整理就會出現跟我一樣的留言板&lt;br&gt;
+我因為是新手也是啥都不懂的&lt;br&gt;
+所以也無法解決大家的問題&lt;br&gt;
+希望能幫到～&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Cloudflare Pages</title>
         <link>https://alasutoru.github.io/5/post/240714/</link>
         <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>

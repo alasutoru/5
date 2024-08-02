@@ -10,18 +10,18 @@
 
   gtag('config', 'G-QS8E5E9FQ1');
 </script>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="知己知彼是第一招！">
-<title>行銷說穿了就是比口才</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="新手按照步驟沒錯">
+<title>Hugo配置gitalk</title>
 
-<link rel='canonical' href='https://alasutoru.github.io/5/post/240715/'>
+<link rel='canonical' href='https://alasutoru.github.io/5/post/240731/'>
 
-<link rel="stylesheet" href="/5/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="行銷說穿了就是比口才">
-<meta property='og:description' content="知己知彼是第一招！">
-<meta property='og:url' content='https://alasutoru.github.io/5/post/240715/'>
+<link rel="stylesheet" href="/5/scss/style.min.0304c6baf04e01a8fe70693791cb744d56a3578a3120a8796cefc66825aa39c7.css"><meta property='og:title' content="Hugo配置gitalk">
+<meta property='og:description' content="新手按照步驟沒錯">
+<meta property='og:url' content='https://alasutoru.github.io/5/post/240731/'>
 <meta property='og:site_name' content='你個燈籠'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='行銷' /><meta property='article:tag' content='原創' /><meta property='article:published_time' content='2024-07-15T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-07-15T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="行銷說穿了就是比口才">
-<meta name="twitter:description" content="知己知彼是第一招！">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='網站' /><meta property='article:published_time' content='2024-07-31T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2024-07-31T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Hugo配置gitalk">
+<meta name="twitter:description" content="新手按照步驟沒錯">
   
 
 
@@ -319,12 +319,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/5/post/240715/">行銷說穿了就是比口才</a>
+            <a href="/5/post/240731/">Hugo配置gitalk</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            知己知彼是第一招！
+            新手按照步驟沒錯
         </h3>
         
     </div>
@@ -345,7 +345,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Jul 15, 2024</time>
+                <time class="article-time--published">Jul 31, 2024</time>
             </div>
         
 
@@ -375,39 +375,50 @@
     <section class="article-content">
     
     
-    <p>很多行銷演講大師<br>
-都講了很多自己厲害的例子<br>
-不要說是誰<br>
-在我心目中<br>
-最厲害的應該是把一間小公司<br>
-變成大公司的行銷顧問<br>
-這才是最強的<br>
-而不是去一間很多資源的大公司<br>
-證明自己的能力<br>
-然後再回頭授課<br>
-跟大家說我有什麼成就</p>
-<p>很多想法是不能是直接拿來用的<br>
-譬如今天聽到有趣的說法<br>
-門市開在高級店房邊可以ＸＸＸＸ</p>
-<p>之前的四大超商<br>
-現在被打趴的那兩間<br>
-不也是用這樣的方式在競爭<br>
-結果勒？</p>
-<p>這說法有個前提<br>
-實力要跟對方拼得了<br>
-不是實力差距很大也開在旁邊<br>
-並不會提升你<br>
-只是襯托出別人的好<br>
-讓顧客可以比較知道<br>
-原來同樣的東西<br>
-大牌子的跟小牌子的<br>
-盡然有這樣的差距<br>
-免費幫人抬高身價<br>
-要知道自己銀彈有多少<br>
-品牌知名度在市場上市佔率有多大<br>
-不是每個方法都適用自己</p>
+    <p>本部落格想裝個留言<br>
+但網路上一堆教學只針對高手或是會的人<br>
+像我這種小白要裝真的很難<br>
+所以我就把裝的過程<br>
+一一列出來<br>
+並詳細介紹</p>
+<p>先連這邊申請
+<a class="link" href="https://github.com/settings/applications/new"  target="_blank" rel="noopener"
+    >https://github.com/settings/applications/new</a>
+進去後有* 的空格填寫</p>
+<p>Application name（隨便寫名字）<br>
+Homepage URL（你要裝的網站首頁地址含https://）
+Authorization callback URL(Authorization callback URL)<br>
+然後點Register application按鈕</p>
+<p>創建後會得到一個ClientID  （複製第一處）
+並點按鈕生成一個ClientSecret（有個生成這個按鈕點一下就可以生成，複製第二處）<br>
+複製這兩個值等等會用到</p>
+<p>接下來打開Hugo主題的配置文件（hugo.toml或者hugo.yaml）
+在裡面會找到gitalk配置</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">gitalk</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">owner</span>: <span style="color:#ae81ff">(github帳號，不是信箱)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">admin</span>: <span style="color:#ae81ff">(github帳號，不是信箱)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">repo</span>: <span style="color:#ae81ff">（在github新建Repositories的名字，譬如我新建ABC，這邊就打ABC）</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">clientID</span>: <span style="color:#ae81ff">剛剛說這邊要複製的，這邊貼第一個</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">clientSecret</span>: <span style="color:#ae81ff">剛剛說這邊要複製的，這邊貼生成的複製第二處</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">ID:（這邊要跟設定issues的標題一模一樣才會成功！！很重要，例如我這邊用/post/）</span>
+</span></span></code></pre></div><p>接下來在Repositories新增，剛剛在上述repo取的名字，要一樣<br>
+例如剛剛在上面取名ABC，這邊就要用ABC</p>
+<p>創好後上面Issues點進去<br>
+右邊有個綠色的New issue點一下創建<br>
+標題要取上面ID：一樣的標題，例如上面用/post/，這邊標題就要用一模一樣<br>
+網頁重新整理就會出現跟我一樣的留言板<br>
+我因為是新手也是啥都不懂的<br>
+所以也無法解決大家的問題<br>
+希望能幫到～</p>
 <h2 id="文章結束">文章結束
-</h2>
+</h2><p>☝原創文章請勿抄襲，引用，搬移，重置！</p>
+
 </section>
 
 
@@ -415,9 +426,7 @@
     
     <section class="article-tags">
         
-            <a href="/5/tags/%E8%A1%8C%E9%8A%B7/">行銷</a>
-        
-            <a href="/5/tags/%E5%8E%9F%E5%89%B5/">原創</a>
+            <a href="/5/tags/%E7%B6%B2%E7%AB%99/">網站</a>
         
     </section>
 
@@ -450,76 +459,37 @@
         <div class="flex article-list--tile">
             
                 
+<article class="">
+    <a href="/5/post/240714/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Cloudflare Pages</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
 <article class="has-image">
-    <a href="/5/post/240708/">
+    <a href="/5/post/231107/">
         
         
             <div class="article-image">
-                <img src="/5/post/240708/back.c732541cf239de0c9031948f30e62dd4.jpg" 
+                <img src="/5/post/231107/231107.64418e8a0d06aa856e356bf075b027c9.jpg" 
                         width="850" 
                         height="375" 
                         loading="lazy"
-                        alt="Featured image of post 強勢回歸！"
+                        alt="Featured image of post 免費照片/圖片壓縮"
                         
-                        data-hash="md5-xzJUHPI53gyQMZSPMOYt1A==">
+                        data-hash="md5-ZEGOig0GqoVuNWvwdbAnyQ==">
                 
             </div>
         
 
         <div class="article-details">
-            <h2 class="article-title">強勢回歸！</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/5/post/240701/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">識曾相識的感覺</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/5/post/240501/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">好運人解析</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/5/post/240301/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">自己的美好人生</h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="">
-    <a href="/5/post/170716/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">關鍵字排名騙局</h2>
+            <h2 class="article-title">免費照片/圖片壓縮</h2>
         </div>
     </a>
 </article>
