@@ -1,22 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alasutoru.github.io/5/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alasutoru.github.io/5/categories/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alasutoru.github.io/5/post/240731/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alasutoru.github.io/5/post/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alasutoru.github.io/5/tags/</loc>
-    <lastmod>2024-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alasutoru.github.io/5/post/%E4%B8%8D%E7%9F%A5%E9%81%93%E9%80%99%E6%98%AF%E5%B9%B9%E5%98%9B/</loc>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alasutoru.github.io/5/categories/%E6%8A%80%E8%A1%93/</loc>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alasutoru.github.io/5/tags/%E8%A1%8C%E9%8A%B7/</loc>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alasutoru.github.io/5/post/240731/</loc>
     <lastmod>2024-07-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alasutoru.github.io/5/tags/%E7%B6%B2%E7%AB%99/</loc>
@@ -57,9 +64,6 @@
   </url><url>
     <loc>https://alasutoru.github.io/5/post/240716/</loc>
     <lastmod>2024-07-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alasutoru.github.io/5/tags/%E8%A1%8C%E9%8A%B7/</loc>
-    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alasutoru.github.io/5/post/240715/</loc>
     <lastmod>2024-07-15T00:00:00+00:00</lastmod>
