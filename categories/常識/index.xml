@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>常識 on 你個燈籠</title>
+        <link>https://alasutoru.github.io/5/categories/%E5%B8%B8%E8%AD%98/</link>
+        <description>Recent content in 常識 on 你個燈籠</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/categories/%E5%B8%B8%E8%AD%98/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>忘記密碼要重置才是對的</title>
+        <link>https://alasutoru.github.io/5/post/240801/</link>
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240801/</guid>
+        <description>&lt;p&gt;有時密碼輸入錯誤需要重置密碼&lt;br&gt;
+但你有沒有想過&lt;br&gt;
+為什麽不能直接告訴我原密碼是什麽&lt;br&gt;
+一定要選擇重置&lt;br&gt;
+這答案很簡單也很重要&lt;br&gt;
+&lt;!-- raw HTML omitted --&gt;服務端不存儲原密碼&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;服務端不應該知道你的原密碼&lt;br&gt;
+如果知道原密碼&lt;br&gt;
+是一個嚴重的安全風險&lt;br&gt;
+如果數據庫被黑客攻擊&lt;br&gt;
+或者有惡意的內部人員&lt;br&gt;
+他們將能夠訪問所有用戶的密碼並竊取&lt;br&gt;
+你想想後果&lt;/p&gt;
+&lt;p&gt;至於密碼的哈希加密有興趣&lt;br&gt;
+可以到網路上查資料&lt;/p&gt;
+&lt;p&gt;當你嘗試登錄&lt;br&gt;
+系統不會比對你輸入的密碼和數據庫中&lt;br&gt;
+存儲的密碼是否完全相同&lt;br&gt;
+它會將你輸入的密碼通過相同的哈希算法加密&lt;br&gt;
+然後比對生成的哈希值是否與數據庫中存儲的哈希值相匹配&lt;br&gt;
+如果匹配&lt;br&gt;
+那麽你的密碼就是正確的&lt;/p&gt;
+&lt;p&gt;為了增加密碼安全性&lt;br&gt;
+還引入了&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/zh-tw/%E7%9B%90_%28%E5%AF%86%E7%A0%81%E5%AD%A6%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Salt的概念&lt;/a&gt; &lt;br&gt;
+通過在密碼的任意固定位置插入一個特定的字符串&lt;br&gt;
+使得即使是相同的密碼&lt;br&gt;
+經過處理後的哈希值也會不同&lt;br&gt;
+即使兩個用戶使用了相同的密碼&lt;br&gt;
+他們的哈希值也會不同&lt;br&gt;
+從而提高了安全性&lt;br&gt;
+登錄時&lt;br&gt;
+服務端會取出與密碼對應的Sult&lt;br&gt;
+然後再次執行哈希加密過程&lt;br&gt;
+如果最終生成的哈希值與數據庫中存儲的哈希值一致&lt;br&gt;
+那麽密碼就是正確&lt;/p&gt;
+&lt;p&gt;哈希算法是不可逆的&lt;br&gt;
+即使服務端存儲了哈希值&lt;br&gt;
+也無法從哈希值逆向推導出原始密碼&lt;br&gt;
+因此服務端自然也無法告訴你原密碼是什麽&lt;/p&gt;
+&lt;p&gt;當你更改密碼時&lt;br&gt;
+如果輸入的新密碼與原密碼相同&lt;br&gt;
+系統通常會提示&lt;br&gt;
+&lt;code&gt;不可與原密碼相同&lt;/code&gt;&lt;br&gt;
+這是為了防止用戶無意中重覆使用相同的密碼&lt;br&gt;
+增加賬戶的安全性&lt;br&gt;
+這種方式不僅保護用戶的密碼不被泄露&lt;br&gt;
+還確保了整個系統的安全性&lt;br&gt;
+當你的密碼可以從網站裡直接拿到&lt;br&gt;
+或是告訴你原密碼是多少的網站&lt;br&gt;
+請注意這網站一定會被盜帳號密碼&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

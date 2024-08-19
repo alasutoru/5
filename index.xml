@@ -6,13 +6,413 @@
         <description>Recent content on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 15 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>test</title>
-        <link>https://alasutoru.github.io/5/post/%E4%B8%8D%E7%9F%A5%E9%81%93%E9%80%99%E6%98%AF%E5%B9%B9%E5%98%9B/</link>
-        <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>iMac右鍵新增壓縮影片</title>
+        <link>https://alasutoru.github.io/5/post/240817/</link>
+        <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://alasutoru.github.io/5/post/%E4%B8%8D%E7%9F%A5%E9%81%93%E9%80%99%E6%98%AF%E5%B9%B9%E5%98%9B/</guid>
-        <description>&lt;img src="https://alasutoru.github.io/5/123.jpg" alt="Featured image of post test" /&gt;&lt;p&gt;123412341234&lt;/p&gt;
+        <guid>https://alasutoru.github.io/5/post/240817/</guid>
+        <description>&lt;p&gt;先檢查mac有無安裝 ffmpeg&lt;br&gt;
+終端機打開輸入&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查看到版本後就不用安裝&lt;br&gt;
+沒看到就需要安裝&lt;br&gt;
+如何安裝這邊就不贅述&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打開 iMac 的 Automator&lt;/li&gt;
+&lt;li&gt;選擇文建類型：==快速動作==&lt;/li&gt;
+&lt;li&gt;工作流程接收目前的選擇==影片檔案==&lt;/li&gt;
+&lt;li&gt;位置 ==Finder.app==&lt;/li&gt;
+&lt;li&gt;左邊程式庫選==工具程式== － ==執行Shell 工序指令==  拖拉到右邊灰色框框內&lt;/li&gt;
+&lt;li&gt;拖拉進去的框右上角傳遞輸入：==作為引數使用==&lt;/li&gt;
+&lt;li&gt;下面灰色框內貼上以下程式碼可先把原先全部刪除再貼上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+
+# 設置 FFmpeg 的固定路徑
+FFMPEG_PATH=&amp;#34;/opt/homebrew/bin/ffmpeg&amp;#34;
+
+# 檢查 FFmpeg 是否存在
+if [ ! -f &amp;#34;$FFMPEG_PATH&amp;#34; ]; then
+  echo &amp;#34;錯誤：在 $FFMPEG_PATH 找不到 FFmpeg。請確保路徑正確。&amp;#34;
+  exit 1
+fi
+
+for f in &amp;#34;$@&amp;#34;
+do
+  output_file=&amp;#34;${f%.*}_compressed.mp4&amp;#34;
+  &amp;#34;$FFMPEG_PATH&amp;#34; -i &amp;#34;$f&amp;#34; \
+    -c:v libx264 -crf 30 -r 24 \
+    -movflags faststart \
+    -c:a aac -b:a 128k \
+    -preset superfast \
+    &amp;#34;$output_file&amp;#34;
+done
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;右上角==執行==跑一下沒問題後上方工具列檔案 ==儲存==檔案後就可關閉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果在執行時有發生錯誤出現&lt;br&gt;
+&lt;code&gt;-: line 4: /opt/homebrew/bin/ffmpeg: No such file or directory&lt;/code&gt;
+代表 ffmpeg 路徑位置不對&lt;br&gt;
+先查詢ffmpeg安裝路徑&lt;br&gt;
+假設我的路徑是&lt;br&gt;
+/usr/local/bin/ffmpeg&lt;br&gt;
+就把路徑輸入到程式碼&lt;/p&gt;
+&lt;p&gt;先在終端機輸入&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;which ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查找路徑後&lt;br&gt;
+這時程式碼路徑要改成找到的位置如下&lt;br&gt;
+譬如我在輸入上面指令後得到的位置是&lt;br&gt;
+/opt/homebrew/bin/ffmpeg&lt;br&gt;
+上面設置FFmpeg固定路徑就改成這&lt;/p&gt;
+&lt;p&gt;OK後在任何影片檔案滑鼠右鍵按下選單出現後選&lt;br&gt;
+快速動作&lt;br&gt;
+有個壓縮影片&lt;br&gt;
+點擊就可以壓縮&lt;/p&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>SEO自己來還是外包好</title>
+        <link>https://alasutoru.github.io/5/post/240814/</link>
+        <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240814/</guid>
+        <description>&lt;p&gt;SEO 包含很多網站技術和行銷文章&lt;br&gt;
+都需要耗費時間和人力維護&lt;br&gt;
+剛入門的新手將理念轉化成實際操作&lt;br&gt;
+這都需要相當的時間學習經驗&lt;br&gt;
+可能面臨到滿滿的數據不知如何分析&lt;br&gt;
+不知自己的問題就是問題等等挑戰&lt;br&gt;
+如果公司人力吃緊需要自己執行 SEO 可能會很吃力&lt;/p&gt;
+&lt;p&gt;20年前相當多 SEO 公司&lt;br&gt;
+如今剩下真正有技術的 SEO 公司幾乎也沒了&lt;br&gt;
+老闆們會發現花了錢沒什麼效用&lt;br&gt;
+想當年谷歌推出廣告後&lt;br&gt;
+這些 SEO 公司也沒啥作用&lt;br&gt;
+誰會等你半年後才有效過&lt;br&gt;
+當時的高手們也轉投廣告業務&lt;br&gt;
+技術也不需要&lt;br&gt;
+我們這年代的行銷人就被有錢砸廣告的公司給滅了&lt;br&gt;
+直到現在有趣的是&lt;br&gt;
+網路上的 SEO 公司還在用十幾年前的文章吸引顧客&lt;br&gt;
+老文章一改再改&lt;br&gt;
+難道真的十幾年前的技術到現在還是一樣嗎&lt;br&gt;
+不過可以很肯定的是
+行銷是需要經驗的
+現在40歲以上的行銷人才是真的強者&lt;br&gt;
+不是說年輕的不行&lt;br&gt;
+技術＋經驗才是真的強&lt;br&gt;
+現在學行銷的技術有了缺的就是經驗&lt;/p&gt;
+&lt;p&gt;以現在的行銷來說&lt;br&gt;
+我是建議自己做就好可以省錢&lt;br&gt;
+先做好功課&lt;br&gt;
+可以每天花幾小時做就好&lt;br&gt;
+因為數據產出需要時間&lt;br&gt;
+不用一整天坐在電腦前&lt;/p&gt;
+&lt;p&gt;外包公司並不會讓你生意變好&lt;br&gt;
+那這樣所有生意不好的公司&lt;br&gt;
+都找 SEO 公司不就好了&lt;br&gt;
+這篇就不細說原因有機會別篇說&lt;/p&gt;
+&lt;p&gt;網路上架設官網的網站都有 SEO 的功能&lt;br&gt;
+所以這部分可以很省心照著操作就好&lt;br&gt;
+購買前看清楚功能表&lt;/p&gt;
+&lt;p&gt;再來是品牌的曝光&lt;br&gt;
+簡單說就是哪裡有流量哪裡有人潮&lt;br&gt;
+現在流行什麼結合時事&lt;br&gt;
+容易帶來高流量&lt;/p&gt;
+&lt;p&gt;如果你的產品成本利潤不高&lt;br&gt;
+行銷方式要改變不能投廣告&lt;/p&gt;
+&lt;p&gt;當然還有很多就像是怎樣精準抓到客戶&lt;br&gt;
+建立長久的品牌事業永續經營&lt;br&gt;
+Google搜尋在前面幾頁&lt;br&gt;
+這其實都是慢慢要弄真的講不完&lt;br&gt;
+但這些要都外包&lt;br&gt;
+要準備超多的錢錢啊&lt;br&gt;
+現在 AI 教學很好用&lt;br&gt;
+要善用 AI 可以省很多錢&lt;br&gt;
+以上這些都可以當關鍵字在網路上搜索到大神們的教學&lt;/p&gt;
+&lt;p&gt;會這樣不推薦外包是因為&lt;br&gt;
+當你託付給SEO公司時
+效果不如預期&lt;br&gt;
+就要有心理準備一句話&lt;br&gt;
+&lt;code&gt;取決於資金多少才有多大效果&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;SEO 收費方式這就是大家最想知道的&lt;br&gt;
+避免事後再度收費&lt;br&gt;
+要清楚知道需求&lt;/p&gt;
+&lt;h6 id=&#34;顧問型&#34;&gt;顧問型
+&lt;/h6&gt;&lt;p&gt;服務內容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;網站健檢&lt;/li&gt;
+&lt;li&gt;優化內容和方向&lt;/li&gt;
+&lt;li&gt;協助網站技術指導&lt;/li&gt;
+&lt;li&gt;分析數據&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;收費方式：&lt;/p&gt;
+&lt;p&gt;季費/年費&lt;br&gt;
+一個月大約5~10萬甚至更高&lt;br&gt;
+但越貴的通常執行效率越好成效越快看到&lt;br&gt;
+也可以給出成效保證&lt;br&gt;
+成效轉化的時間比較長&lt;br&gt;
+但也因為時間拉很長&lt;br&gt;
+曾看過沒成效的顧問卻要一直付費&lt;br&gt;
+所以在簽約時可以加註成效&lt;br&gt;
+如果在幾個月內成效沒有到達多少&lt;br&gt;
+可提前解約&lt;/p&gt;
+&lt;h6 id=&#34;排行型&#34;&gt;排行型
+&lt;/h6&gt;&lt;p&gt;服務內容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;調整網站原始碼優化 SEO&lt;/li&gt;
+&lt;li&gt;可從頭建立網站和指導經營方向&lt;/li&gt;
+&lt;li&gt;所有產出文字內容符合 SEO 內容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;收費方式：&lt;/p&gt;
+&lt;p&gt;績效計費/月費/季費/年費&lt;br&gt;
+一個月費用大概3萬到4萬&lt;br&gt;
+等於公司外包請一個 SEO 員工&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;以上這些還要注意的有&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每週溝通時間多少溝通模式為何&lt;/li&gt;
+&lt;li&gt;建立定期討論會議不要放著就不管&lt;/li&gt;
+&lt;li&gt;隨時要追蹤最新執行進度&lt;/li&gt;
+&lt;li&gt;多久回報成效&lt;/li&gt;
+&lt;li&gt;文章內容發文週期為何和上架時間&lt;/li&gt;
+&lt;li&gt;討論過後的執行層面為何&lt;/li&gt;
+&lt;li&gt;每次的報告提供哪些數據和指標&lt;/li&gt;
+&lt;li&gt;簽訂合約內容要仔細閱讀了解權利義務&lt;/li&gt;
+&lt;li&gt;有哪些 SEO 架構和服務&lt;/li&gt;
+&lt;li&gt;關鍵字規劃和細節與執行報告方式和頻率&lt;/li&gt;
+&lt;li&gt;需要費用的項目要一一列出來&lt;/li&gt;
+&lt;li&gt;如果有網址購買和網站製作時所有權歸屬&lt;/li&gt;
+&lt;li&gt;結束合約後網站和文章版權歸屬&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;很多公司都是用套版網站或是把所有權歸屬自己&lt;br&gt;
+等下一個客戶來時再用到下一個客戶身上&lt;br&gt;
+這都是需要特別注意的地方&lt;br&gt;
+有想到再補充&lt;/p&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>拜師學行銷請先STOP</title>
+        <link>https://alasutoru.github.io/5/post/240812/</link>
+        <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240812/</guid>
+        <description>&lt;p&gt;行銷顧問都舉自己能做到的例子&lt;br&gt;
+話都講一半 &lt;br&gt;
+行銷層面很廣一定都會有團隊&lt;br&gt;
+但出來推銷演講的只有一個人&lt;br&gt;
+讓你覺得他一個人好厲害&lt;br&gt;
+但其實背後的團隊也有技術部份&lt;br&gt;
+這就是說一半的話術&lt;br&gt;
+做不到的絕對不說&lt;br&gt;
+失敗不說只說成功&lt;br&gt;
+但人都沒失敗過嗎&lt;br&gt;
+翻開曾經待過的公司&lt;br&gt;
+再看看當時這些公司年份&lt;br&gt;
+真的是噗呲一笑&lt;br&gt;
+那個環境大家都是高手&lt;/p&gt;
+&lt;p&gt;數據是方向的指南針&lt;br&gt;
+也從不說自己怎麼分析數據&lt;br&gt;
+從哪邊看方向怎麼選路&lt;br&gt;
+只用心理學這種沒答案的方法&lt;br&gt;
+告訴你我很懂&lt;br&gt;
+不講技術面只講講講講&lt;br&gt;
+我跳針了&lt;/p&gt;
+&lt;p&gt;如果你真行&lt;br&gt;
+不用到處打廣告上訪談開演講&lt;br&gt;
+也不用找一堆人背書&lt;br&gt;
+說願意幫所有人讓大家都進步&lt;br&gt;
+那你的方法是什麼怎麼不講出來&lt;br&gt;
+強者根本不需要這樣證明自己&lt;br&gt;
+不是原來在外國活得好好的&lt;br&gt;
+怎麼跟某些藝人一樣回國&lt;br&gt;
+常常有狗叫聲&lt;br&gt;
+讓我這種老一輩的行銷人&lt;br&gt;
+牙齒剩沒多少還快笑光&lt;br&gt;
+收集所有資料變成自己的&lt;br&gt;
+加上自創名詞與韭菜一場又一場的約&lt;br&gt;
+你想拿VIP門票的心&lt;br&gt;
+可是很多人都看出來了呢&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>無法埋追蹤的解決法</title>
+        <link>https://alasutoru.github.io/5/post/240811/</link>
+        <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240811/</guid>
+        <description>&lt;p&gt;友人提及在別人公司辦的活動頁面&lt;br&gt;
+無法埋入 &lt;a class=&#34;link&#34; href=&#34;https://support.google.com/analytics/answer/10917952?hl=zh-Hant#zippy=%2C%E6%9C%AC%E6%96%87%E5%85%A7%E5%AE%B9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;UTM&lt;/a&gt; 成效不得而知&lt;br&gt;
+但這其實很多老行銷人都會&lt;/p&gt;
+&lt;p&gt;1.特殊關鍵字標題＋文字&lt;br&gt;
+2.在自家網站多開個活動獨立頁面&lt;/p&gt;
+&lt;p&gt;這樣就解決了&lt;/p&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Google AI Overviews</title>
+        <link>https://alasutoru.github.io/5/post/240810/</link>
+        <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240810/</guid>
+        <description>&lt;p&gt;搜尋，點下，完成一次點擊 &lt;br&gt;
+只有搜尋沒有點擊並不代表結束&lt;br&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://blog.google/products/search/generative-ai-google-search-may-2024/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;AI Overviews&lt;/a&gt; 的推出&lt;br&gt;
+是否改變消費者的搜尋次數與點擊的結果&lt;/p&gt;
+&lt;h4 id=&#34;什麼是ai-overviews&#34;&gt;什麼是AI Overviews
+&lt;/h4&gt;&lt;p&gt;Google 搜尋結果頁面中&lt;br&gt;
+由AI從你的關鍵字搜索後生成的答案&lt;br&gt;
+這答案會出現在搜尋結果頁&lt;br&gt;
+AI Overviews 目前只有在美國上線將來會推至全球&lt;br&gt;
+AI Overviews 使用自家 Gemini 模型&lt;br&gt;
+使用者不需要點進每個網站&lt;br&gt;
+就能獲得由 AI Overviews 統整資料&lt;/p&gt;
+&lt;h4 id=&#34;零點擊搜尋&#34;&gt;零點擊搜尋
+&lt;/h4&gt;&lt;p&gt;&lt;code&gt;被定義為無需點擊任何顯示結果即可結束的搜尋&lt;/code&gt;&lt;br&gt;
+近 60% 的行動網路和桌面搜尋都是以這種方式結束&lt;br&gt;
+對行銷人員來說&lt;br&gt;
+這強調零點擊內容的重要性&lt;br&gt;
+而從不產生點擊的搜尋中獲取價值&lt;/p&gt;
+&lt;h4 id=&#34;結論&#34;&gt;結論
+&lt;/h4&gt;&lt;p&gt;AI Overviews 的 SEO 策略該做出哪些改變&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;提升網站曝光&lt;!-- raw HTML omitted --&gt;
+如果 AI Overview 或其他新的 AI 發展趨勢&lt;br&gt;
+導致零點擊搜尋比例上升&lt;br&gt;
+執行 SEO 或&lt;!-- raw HTML omitted --&gt;付費搜尋廣告(SEM)&lt;!-- raw HTML omitted --&gt; 的目標與策略需要調整&lt;br&gt;
+以往以流量為重的策略不再適用&lt;br&gt;
+取而代之的是曝光為首要優先要件&lt;br&gt;
+做好 &lt;!-- raw HTML omitted --&gt;SERP(搜尋結果頁)&lt;!-- raw HTML omitted --&gt; 分析與掌握 Google 推薦偏好&lt;br&gt;
+即使做了 SEO 將搜尋結果推到 SERP 前面的位置也不代表就能優先搶到曝光&lt;br&gt;
+現在 SERP 上有 AI Overview 版位、付費搜尋版位、影片圖片搜尋等各種競爭&lt;br&gt;
+想要脫穎而出建議從 SERP 開始分析&lt;br&gt;
+了解 Google 推給使用者的內容是什麼就以那個為重&lt;br&gt;
+行銷策略佈局也需要涵蓋到&lt;br&gt;
+才能有效提升品牌曝光度&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;抓對關鍵字，加入熱門搜尋字&lt;!-- raw HTML omitted --&gt;
+在進行關鍵字篩選時&lt;br&gt;
+需要密切注意關鍵字觸發的 SERP 特性&lt;br&gt;
+判斷關鍵字如何進行優化&lt;/p&gt;
+&lt;p&gt;文章要有豐富的內容&lt;br&gt;
+以搜尋者的角度去撰寫&lt;br&gt;
+達到 AI Overview 搜尋最大量&lt;br&gt;
+可在AI搜尋&lt;br&gt;
+測試能不能帶出以自身關鍵字的網站&lt;br&gt;
+這都是行銷人員很大的考驗&lt;/p&gt;
+&lt;h4 id=&#34;結束&#34;&gt;結束
+&lt;/h4&gt;</description>
+        </item>
+        <item>
+        <title>淘寶來台灣</title>
+        <link>https://alasutoru.github.io/5/post/240808/</link>
+        <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240808/</guid>
+        <description>&lt;p&gt;台灣在電商這塊真的讓很多國家眼紅&lt;br&gt;
+都想來插旗分一杯羹&lt;br&gt;
+蝦皮岌岌可危&lt;/p&gt;
+&lt;p&gt;後面進入市場的電商&lt;br&gt;
+或是帶著賺來的錢進來市場的火箭隊&lt;br&gt;
+都讓靠補貼的蝦皮無法停止&lt;br&gt;
+這時淘寶近來還免運&lt;br&gt;
+在市場上常常有這招&lt;br&gt;
+等你快燒沒錢了我再進來&lt;br&gt;
+撿現成&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>買粉絲的網紅別再說謊</title>
+        <link>https://alasutoru.github.io/5/post/240804/</link>
+        <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240804/</guid>
+        <description>&lt;p&gt;最近有個新聞熱度蠻高&lt;br&gt;
+當然那不是重點&lt;br&gt;
+這個網紅發文寫著&lt;br&gt;
+過去現在未來都不會買粉絲&lt;br&gt;
+好奇用了國外一個網站&lt;br&gt;
+看看是不是如她所說&lt;br&gt;
+然後再對比一個我很愛韓星&lt;br&gt;
+當然我們自己心裡知道就好&lt;/p&gt;
+&lt;p&gt;image = &amp;ldquo;841.png&amp;rdquo;
+image = &amp;ldquo;842.png&amp;rdquo;
+image = &amp;ldquo;843.png&amp;rdquo;
+image = &amp;ldquo;844.png&amp;rdquo;
+image = &amp;ldquo;845.jpg&amp;rdquo;
+image = &amp;ldquo;846.jpg&amp;rdquo;
+image = &amp;ldquo;847.jpg&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>忘記密碼要重置才是對的</title>
+        <link>https://alasutoru.github.io/5/post/240801/</link>
+        <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240801/</guid>
+        <description>&lt;p&gt;有時密碼輸入錯誤需要重置密碼&lt;br&gt;
+但你有沒有想過&lt;br&gt;
+為什麽不能直接告訴我原密碼是什麽&lt;br&gt;
+一定要選擇重置&lt;br&gt;
+這答案很簡單也很重要&lt;br&gt;
+&lt;!-- raw HTML omitted --&gt;服務端不存儲原密碼&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;服務端不應該知道你的原密碼&lt;br&gt;
+如果知道原密碼&lt;br&gt;
+是一個嚴重的安全風險&lt;br&gt;
+如果數據庫被黑客攻擊&lt;br&gt;
+或者有惡意的內部人員&lt;br&gt;
+他們將能夠訪問所有用戶的密碼並竊取&lt;br&gt;
+你想想後果&lt;/p&gt;
+&lt;p&gt;至於密碼的哈希加密有興趣&lt;br&gt;
+可以到網路上查資料&lt;/p&gt;
+&lt;p&gt;當你嘗試登錄&lt;br&gt;
+系統不會比對你輸入的密碼和數據庫中&lt;br&gt;
+存儲的密碼是否完全相同&lt;br&gt;
+它會將你輸入的密碼通過相同的哈希算法加密&lt;br&gt;
+然後比對生成的哈希值是否與數據庫中存儲的哈希值相匹配&lt;br&gt;
+如果匹配&lt;br&gt;
+那麽你的密碼就是正確的&lt;/p&gt;
+&lt;p&gt;為了增加密碼安全性&lt;br&gt;
+還引入了&lt;a class=&#34;link&#34; href=&#34;https://zh.wikipedia.org/zh-tw/%E7%9B%90_%28%E5%AF%86%E7%A0%81%E5%AD%A6%29&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Salt的概念&lt;/a&gt; &lt;br&gt;
+通過在密碼的任意固定位置插入一個特定的字符串&lt;br&gt;
+使得即使是相同的密碼&lt;br&gt;
+經過處理後的哈希值也會不同&lt;br&gt;
+即使兩個用戶使用了相同的密碼&lt;br&gt;
+他們的哈希值也會不同&lt;br&gt;
+從而提高了安全性&lt;br&gt;
+登錄時&lt;br&gt;
+服務端會取出與密碼對應的Sult&lt;br&gt;
+然後再次執行哈希加密過程&lt;br&gt;
+如果最終生成的哈希值與數據庫中存儲的哈希值一致&lt;br&gt;
+那麽密碼就是正確&lt;/p&gt;
+&lt;p&gt;哈希算法是不可逆的&lt;br&gt;
+即使服務端存儲了哈希值&lt;br&gt;
+也無法從哈希值逆向推導出原始密碼&lt;br&gt;
+因此服務端自然也無法告訴你原密碼是什麽&lt;/p&gt;
+&lt;p&gt;當你更改密碼時&lt;br&gt;
+如果輸入的新密碼與原密碼相同&lt;br&gt;
+系統通常會提示&lt;br&gt;
+&lt;code&gt;不可與原密碼相同&lt;/code&gt;&lt;br&gt;
+這是為了防止用戶無意中重覆使用相同的密碼&lt;br&gt;
+增加賬戶的安全性&lt;br&gt;
+這種方式不僅保護用戶的密碼不被泄露&lt;br&gt;
+還確保了整個系統的安全性&lt;br&gt;
+當你的密碼可以從網站裡直接拿到&lt;br&gt;
+或是告訴你原密碼是多少的網站&lt;br&gt;
+請注意這網站一定會被盜帳號密碼&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
 </description>
         </item>
         <item>

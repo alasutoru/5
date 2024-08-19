@@ -6,7 +6,73 @@
         <description>Recent content in 技能 on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/categories/%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/categories/%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>iMac右鍵新增壓縮影片</title>
+        <link>https://alasutoru.github.io/5/post/240817/</link>
+        <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240817/</guid>
+        <description>&lt;p&gt;先檢查mac有無安裝 ffmpeg&lt;br&gt;
+終端機打開輸入&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查看到版本後就不用安裝&lt;br&gt;
+沒看到就需要安裝&lt;br&gt;
+如何安裝這邊就不贅述&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;打開 iMac 的 Automator&lt;/li&gt;
+&lt;li&gt;選擇文建類型：==快速動作==&lt;/li&gt;
+&lt;li&gt;工作流程接收目前的選擇==影片檔案==&lt;/li&gt;
+&lt;li&gt;位置 ==Finder.app==&lt;/li&gt;
+&lt;li&gt;左邊程式庫選==工具程式== － ==執行Shell 工序指令==  拖拉到右邊灰色框框內&lt;/li&gt;
+&lt;li&gt;拖拉進去的框右上角傳遞輸入：==作為引數使用==&lt;/li&gt;
+&lt;li&gt;下面灰色框內貼上以下程式碼可先把原先全部刪除再貼上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
+
+# 設置 FFmpeg 的固定路徑
+FFMPEG_PATH=&amp;#34;/opt/homebrew/bin/ffmpeg&amp;#34;
+
+# 檢查 FFmpeg 是否存在
+if [ ! -f &amp;#34;$FFMPEG_PATH&amp;#34; ]; then
+  echo &amp;#34;錯誤：在 $FFMPEG_PATH 找不到 FFmpeg。請確保路徑正確。&amp;#34;
+  exit 1
+fi
+
+for f in &amp;#34;$@&amp;#34;
+do
+  output_file=&amp;#34;${f%.*}_compressed.mp4&amp;#34;
+  &amp;#34;$FFMPEG_PATH&amp;#34; -i &amp;#34;$f&amp;#34; \
+    -c:v libx264 -crf 30 -r 24 \
+    -movflags faststart \
+    -c:a aac -b:a 128k \
+    -preset superfast \
+    &amp;#34;$output_file&amp;#34;
+done
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;右上角==執行==跑一下沒問題後上方工具列檔案 ==儲存==檔案後就可關閉&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果在執行時有發生錯誤出現&lt;br&gt;
+&lt;code&gt;-: line 4: /opt/homebrew/bin/ffmpeg: No such file or directory&lt;/code&gt;
+代表 ffmpeg 路徑位置不對&lt;br&gt;
+先查詢ffmpeg安裝路徑&lt;br&gt;
+假設我的路徑是&lt;br&gt;
+/usr/local/bin/ffmpeg&lt;br&gt;
+就把路徑輸入到程式碼&lt;/p&gt;
+&lt;p&gt;先在終端機輸入&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;which ffmpeg
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查找路徑後&lt;br&gt;
+這時程式碼路徑要改成找到的位置如下&lt;br&gt;
+譬如我在輸入上面指令後得到的位置是&lt;br&gt;
+/opt/homebrew/bin/ffmpeg&lt;br&gt;
+上面設置FFmpeg固定路徑就改成這&lt;/p&gt;
+&lt;p&gt;OK後在任何影片檔案滑鼠右鍵按下選單出現後選&lt;br&gt;
+快速動作&lt;br&gt;
+有個壓縮影片&lt;br&gt;
+點擊就可以壓縮&lt;/p&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>幾年後的公司狀態</title>
         <link>https://alasutoru.github.io/5/post/240717/</link>
         <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
