@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Imac on 你個燈籠</title>
+        <title>IMac on 你個燈籠</title>
         <link>https://alasutoru.github.io/5/tags/imac/</link>
-        <description>Recent content in Imac on 你個燈籠</description>
+        <description>Recent content in IMac on 你個燈籠</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sat, 17 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/tags/imac/index.xml" rel="self" type="application/rss+xml" /><item>
@@ -12,7 +12,9 @@
         <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
         
         <guid>https://alasutoru.github.io/5/post/240817/</guid>
-        <description>&lt;p&gt;先檢查mac有無安裝 ffmpeg&lt;br&gt;
+        <description>&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！
+先檢查mac有無安裝 ffmpeg&lt;br&gt;
 終端機打開輸入&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ffmpeg -version
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;查看到版本後就不用安裝&lt;br&gt;
@@ -20,11 +22,11 @@
 如何安裝這邊就不贅述&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;打開 iMac 的 Automator&lt;/li&gt;
-&lt;li&gt;選擇文建類型：==快速動作==&lt;/li&gt;
-&lt;li&gt;工作流程接收目前的選擇==影片檔案==&lt;/li&gt;
-&lt;li&gt;位置 ==Finder.app==&lt;/li&gt;
-&lt;li&gt;左邊程式庫選==工具程式== － ==執行Shell 工序指令==  拖拉到右邊灰色框框內&lt;/li&gt;
-&lt;li&gt;拖拉進去的框右上角傳遞輸入：==作為引數使用==&lt;/li&gt;
+&lt;li&gt;選擇文建類型：&lt;code&gt;快速動作&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;工作流程接收目前的選擇&lt;code&gt;影片檔案&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;位置 &lt;code&gt;Finder.app&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;左邊程式庫選&lt;code&gt;工具程式&lt;/code&gt; － &lt;code&gt;執行Shell 工序指令&lt;/code&gt;拖拉到右邊灰色框框內&lt;/li&gt;
+&lt;li&gt;拖拉進去的框右上角傳遞輸入：&lt;code&gt;作為引數使用&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;下面灰色框內貼上以下程式碼可先把原先全部刪除再貼上&lt;/li&gt;
 &lt;/ul&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;#!/bin/bash
@@ -49,7 +51,7 @@ do
     &amp;#34;$output_file&amp;#34;
 done
 &lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;右上角==執行==跑一下沒問題後上方工具列檔案 ==儲存==檔案後就可關閉&lt;/li&gt;
+&lt;li&gt;右上角&lt;code&gt;執行&lt;/code&gt;跑一下沒問題後上方工具列檔案 &lt;code&gt;儲存&lt;/code&gt;檔案後就可關閉&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;如果在執行時有發生錯誤出現&lt;br&gt;
 &lt;code&gt;-: line 4: /opt/homebrew/bin/ffmpeg: No such file or directory&lt;/code&gt;&lt;br&gt;

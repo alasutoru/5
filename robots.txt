@@ -1,8 +1,4 @@
-User-agent: ClaudeBotDisallow
-Disallow: /
-
 User-agent: *
-Allow: /
-
-User-agent: Googlebot-Image
 Disallow: /
+Allow: /post/
+Sitemap: https://alasutoru.github.io/5/sitemap.xml
