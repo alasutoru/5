@@ -873,35 +873,6 @@ AI Overviews 使用自家 Gemini 模型&lt;br&gt;
 </description>
         </item>
         <item>
-        <title>投資成功法則</title>
-        <link>https://alasutoru.github.io/5/post/240415/</link>
-        <pubDate>Thu, 01 Aug 2024 08:00:05 +0800</pubDate>
-        
-        <guid>https://alasutoru.github.io/5/post/240415/</guid>
-        <description>&lt;p&gt;我原本是電機系&lt;br&gt;
-對金融領域一竅不通&lt;br&gt;
-當時想跨投資並沒有猶豫&lt;br&gt;
-因為學任何東西都是從頭開始&lt;br&gt;
-給自己大量練習 ＋ 大量思考
-所有社交關閉&lt;br&gt;
-盯了十年以上的的早晚盤&lt;br&gt;
-前五年看每隻上市櫃股票&lt;br&gt;
-每天反覆練習&lt;/p&gt;
-&lt;p&gt;另外&lt;br&gt;
-時間要分配給對的人&lt;br&gt;
-尤其是比自己聰明的人&lt;br&gt;
-重要的事情上&lt;br&gt;
-就是可以讓自己成長更快的地方&lt;br&gt;
-把會內耗的事情&lt;br&gt;
-拋在一邊&lt;br&gt;
-沒有決心是不會成功的&lt;br&gt;
-過來人的提醒&lt;br&gt;
-&lt;code&gt;不要去想結果會如何！做了就是要得到！&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
-&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>忘記密碼要重置才是對的</title>
         <link>https://alasutoru.github.io/5/post/240801/</link>
         <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
@@ -1376,7 +1347,7 @@ Authorization callback URL(Authorization callback URL)&lt;br&gt;
 &lt;/h2&gt;</description>
         </item>
         <item>
-        <title></title>
+        <title>IMPORTRANGE用法</title>
         <link>https://alasutoru.github.io/5/post/240702/</link>
         <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
         
@@ -1691,6 +1662,50 @@ Authorization callback URL(Authorization callback URL)&lt;br&gt;
 </description>
         </item>
         <item>
+        <title>了解套利</title>
+        <link>https://alasutoru.github.io/5/post/240515/</link>
+        <pubDate>Wed, 15 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240515/</guid>
+        <description>&lt;p&gt;以下內容也不是秘密&lt;br&gt;
+給不理解的人一個理解&lt;/p&gt;
+&lt;p&gt;套利交易&lt;br&gt;
+目的是利用台幣升值的預期&lt;br&gt;
+在不同市場進行多空操作&lt;br&gt;
+以獲取套利收益&lt;br&gt;
+操作步驟如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;先用大量美元買進台幣。這一步驟是為了製造台幣升值的預期，吸引更多人買進台幣&lt;/li&gt;
+&lt;li&gt;台幣升值。由於大量美元買進台幣，導致台幣供給減少，需求增加，台幣匯率升值&lt;/li&gt;
+&lt;li&gt;放空一些台股股票。這一步驟是為了在台股下跌時獲利&lt;/li&gt;
+&lt;li&gt;再放空新台幣三十天期利率期貨、台指期貨、台指期選擇權。這一步驟也是為了在台股下跌時獲利&lt;/li&gt;
+&lt;li&gt;再作空台幣對美元的無本金交割遠期外匯。這一步驟是為了在台幣貶值時獲利&lt;/li&gt;
+&lt;li&gt;串通或買通部份在台外資基金經理人大量在媒體放利空與大量賣出手上大型權值股的持股。這一步驟是為了製造台股下跌的預期，促使台股大跌&lt;/li&gt;
+&lt;li&gt;台股大跌。由於外資基金大量拋售台股股票，導致台股大跌&lt;/li&gt;
+&lt;li&gt;期貨空單先平倉獲利。由於台股大跌，期貨空單獲利，可以先平倉獲利出場&lt;/li&gt;
+&lt;li&gt;股票空單再獲利回補。由於台股大跌，股票空單獲利，可以再平倉獲利回補&lt;/li&gt;
+&lt;li&gt;把大量台幣換回美元。由於台幣貶值，可以把大量台幣換回美元，獲利出場&lt;/li&gt;
+&lt;li&gt;外匯空單平倉獲利出場。由於台幣貶值，外匯空單獲利，可以平倉獲利出場&lt;/li&gt;
+&lt;li&gt;把大筆獲利匯出台灣。可以把大筆獲利匯出台灣&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;操作風險 這個操作方式存在以下風險&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;台幣升值預期不成立。如果台幣升值預期不成立，導致台幣貶值，則套利交易將會虧損&lt;/li&gt;
+&lt;li&gt;台股下跌幅度不如預期。如果台股下跌幅度不如預期，則期貨空單、股票空單的獲利可能不如預期&lt;/li&gt;
+&lt;li&gt;外匯貶值幅度不如預期。如果外匯貶值幅度不如預期，則外匯空單的獲利可能不如預期&lt;/li&gt;
+&lt;li&gt;匯率政策變化。如果央行採取措施干預匯率，導致台幣貶值幅度不如預期，則套利交易將會虧損&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在操作時應注意以下事項&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;做好風險評估，充分了解套利交易的風險&lt;/li&gt;
+&lt;li&gt;使用適當的槓桿倍數，避免過度槓桿造成虧損&lt;/li&gt;
+&lt;li&gt;設置止損點，控制虧損風險&lt;/li&gt;
+&lt;li&gt;定期監控交易狀況，隨時調整交易策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>好運人解析</title>
         <link>https://alasutoru.github.io/5/post/240501/</link>
         <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
@@ -1739,6 +1754,35 @@ Authorization callback URL(Authorization callback URL)&lt;br&gt;
 剩下的就是相信&lt;br&gt;
 你的神會幫助你的&lt;br&gt;
 『幫你的從不是讓你選擇』&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>投資成功法則</title>
+        <link>https://alasutoru.github.io/5/post/240415/</link>
+        <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240415/</guid>
+        <description>&lt;p&gt;我原本是電機系&lt;br&gt;
+對金融領域一竅不通&lt;br&gt;
+當時想跨投資並沒有猶豫&lt;br&gt;
+因為學任何東西都是從頭開始&lt;br&gt;
+給自己大量練習 ＋ 大量思考
+所有社交關閉&lt;br&gt;
+盯了十年以上的的早晚盤&lt;br&gt;
+前五年看每隻上市櫃股票&lt;br&gt;
+每天反覆練習&lt;/p&gt;
+&lt;p&gt;另外&lt;br&gt;
+時間要分配給對的人&lt;br&gt;
+尤其是比自己聰明的人&lt;br&gt;
+重要的事情上&lt;br&gt;
+就是可以讓自己成長更快的地方&lt;br&gt;
+把會內耗的事情&lt;br&gt;
+拋在一邊&lt;br&gt;
+沒有決心是不會成功的&lt;br&gt;
+過來人的提醒&lt;br&gt;
+&lt;code&gt;不要去想結果會如何！做了就是要得到！&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
 </description>
@@ -1806,6 +1850,24 @@ Authorization callback URL(Authorization callback URL)&lt;br&gt;
 這也是可以當選擇依據～&lt;/p&gt;
 &lt;h2 id=&#34;文章結束&#34;&gt;文章結束
 &lt;/h2&gt;</description>
+        </item>
+        <item>
+        <title>有錢只能自己知道</title>
+        <link>https://alasutoru.github.io/5/post/240215/</link>
+        <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240215/</guid>
+        <description>&lt;p&gt;尤其親人誰都不能講&lt;br&gt;
+不然面對情勒的時候&lt;br&gt;
+你能怎麼辦&lt;br&gt;
+錯誤就從這時開始&lt;br&gt;
+好好的家會被毀掉&lt;br&gt;
+只有錢沒有溫度的地方&lt;br&gt;
+會讓人身心俱疲&lt;br&gt;
+很多有錢人的經驗談&lt;/p&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>重啟人生之一</title>
