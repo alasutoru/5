@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>文書 on 你個燈籠</title>
+        <link>https://alasutoru.github.io/5/tags/%E6%96%87%E6%9B%B8/</link>
+        <description>Recent content in 文書 on 你個燈籠</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://alasutoru.github.io/5/tags/%E6%96%87%E6%9B%B8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title></title>
+        <link>https://alasutoru.github.io/5/post/240702/</link>
+        <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/post/240702/</guid>
+        <description>&lt;p&gt;IMPORTRANGE 是 Google 試算表中用來從另一個試算表中導入資料的函數。這個函數非常有用，當你想要從不同的試算表中提取資料而不需要手動複製和貼上時，可以使用它來自動化這個過程。&lt;/p&gt;
+&lt;h3 id=&#34;使用步驟&#34;&gt;使用步驟
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;準備資料來源試算表&lt;/strong&gt;&lt;br&gt;
+首先，確保你要導入資料的試算表已經準備好。記下該試算表的 URL（網址）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;授權&lt;/strong&gt;&lt;br&gt;
+在首次使用 IMPORTRANGE 時，Google 試算表會要求你授權這兩個試算表之間的連接。這是一次性的操作。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;語法結構&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;=IMPORTRANGE(&amp;#34;來源試算表的網址&amp;#34;, &amp;#34;工作表名稱!範圍&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;來源試算表的網址&lt;/code&gt;: 來源試算表的完整 URL 或試算表的 ID（在 URL 中能找到的那串字符）。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;工作表名稱!範圍&lt;/code&gt;: 來源試算表中你要提取資料的範圍，格式為 &lt;code&gt;&amp;quot;工作表名稱!A1:D10&amp;quot;&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;範例&#34;&gt;範例
+&lt;/h3&gt;&lt;p&gt;假設你有一個試算表，網址為 &lt;code&gt;https://docs.google.com/spreadsheets/d/abc123456789/edit&lt;/code&gt;，且你想要從名為 &amp;ldquo;數據&amp;rdquo; 的工作表中導入範圍 A1 到 B10 的資料到你目前的試算表中，那麼公式將會是：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;=IMPORTRANGE(&amp;#34;https://docs.google.com/spreadsheets/d/abc123456789/edit&amp;#34;, &amp;#34;數據!A1:B10&amp;#34;)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣，資料就會自動從那個試算表的 &amp;ldquo;數據&amp;rdquo; 工作表的範圍 A1 到 B10 匯入到你現在的試算表中。&lt;/p&gt;
+&lt;h3 id=&#34;注意事項&#34;&gt;注意事項
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;在同一個試算表中，IMPORTRANGE 公式不需要再引用 URL。&lt;/li&gt;
+&lt;li&gt;使用此函數時，確保你有權限訪問來源試算表。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
+&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
