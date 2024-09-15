@@ -38,7 +38,7 @@
 &lt;p&gt;愛父母&lt;br&gt;
 關心父母&lt;br&gt;
 表達和感恩的方式很多種&lt;/p&gt;
-&lt;p&gt;==錯的就是『犧牲自己的人生，承擔他們的責任』！==&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;錯的就是『犧牲自己的人生，承擔他們的責任』！&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
 </description>
         </item>
@@ -1462,7 +1462,7 @@ Authorization callback URL(Authorization callback URL)&lt;br&gt;
 &lt;ul&gt;
 &lt;li&gt;看透人心雙眼擁有者&lt;/li&gt;
 &lt;li&gt;40年生活觀察家&lt;/li&gt;
-&lt;li&gt;資深MIS&lt;/li&gt;
+&lt;li&gt;資深 MIS&lt;/li&gt;
 &lt;li&gt;璇璣門 紫微 旁門弟子&lt;/li&gt;
 &lt;li&gt;法玄 法科諮詢顧問&lt;/li&gt;
 &lt;li&gt;福緣命理工作室 風水堪與師 嫡傳弟子&lt;/li&gt;
@@ -3783,15 +3783,7 @@ Word、Excel、PDF的附件，所以不覺得可疑&lt;br&gt;
         <description></description>
         </item>
         <item>
-        <title>搜尋檔</title>
-        <link>https://alasutoru.github.io/5/page/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://alasutoru.github.io/5/page/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>連結斯</title>
+        <title>好用連結</title>
         <link>https://alasutoru.github.io/5/page/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
@@ -3809,6 +3801,14 @@ Word、Excel、PDF的附件，所以不覺得可疑&lt;br&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ts-logo-128.jpg&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>搜尋本站</title>
+        <link>https://alasutoru.github.io/5/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://alasutoru.github.io/5/page/search/</guid>
+        <description></description>
         </item>
         
     </channel>
