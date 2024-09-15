@@ -78,8 +78,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
-&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -93,7 +91,7 @@
 為什麽不能直接告訴我原密碼是什麽&lt;br&gt;
 一定要選擇重置&lt;br&gt;
 這答案很簡單也很重要&lt;br&gt;
-&lt;!-- raw HTML omitted --&gt;服務端不存儲原密碼&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;code&gt;服務端不存儲原密碼&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;服務端不應該知道你的原密碼&lt;br&gt;
 如果知道原密碼&lt;br&gt;
 是一個嚴重的安全風險&lt;br&gt;
@@ -139,8 +137,6 @@
 當你的密碼可以從網站裡直接拿到&lt;br&gt;
 或是告訴你原密碼是多少的網站&lt;br&gt;
 請注意這網站一定會被盜帳號密碼&lt;/p&gt;
-&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
-&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -157,8 +153,6 @@
 只有錢沒有溫度的地方&lt;br&gt;
 會讓人身心俱疲&lt;br&gt;
 很多有錢人的經驗談&lt;/p&gt;
-&lt;h2 id=&#34;文章結束&#34;&gt;文章結束
-&lt;/h2&gt;&lt;p&gt;☝原創文章請勿抄襲，引用，搬移，重置！&lt;/p&gt;
 </description>
         </item>
         
